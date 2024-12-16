@@ -1,0 +1,1617 @@
+0 verbose cli /usr/local/bin/node /usr/local/bin/npm
+1 info using npm@10.9.0
+2 info using node@v20.18.0
+3 silly config load:file:/usr/local/lib/node_modules/npm/npmrc
+4 silly config load:file:/home/container/.npmrc
+5 silly config load:file:/usr/local/etc/npmrc
+6 verbose title npm i
+7 verbose argv "i"
+8 verbose logfile logs-max:10 dir:/home/container/.npm/_logs/2024-10-19T14_51_49_982Z-
+9 verbose logfile /home/container/.npm/_logs/2024-10-19T14_51_49_982Z-debug-0.log
+10 silly logfile start cleaning logs, removing 1 files
+11 silly logfile done cleaning log files
+12 silly packumentCache heap:614203392 maxSize:153550848 maxEntrySize:76775424
+13 silly idealTree buildDeps
+14 silly reify mark retired [
+14 silly reify   '/home/container/node_modules/archive-2024-09-28T234628+0200.tar.gz'
+14 silly reify ]
+15 silly reify mark retired [
+15 silly reify   '/home/container/node_modules/archive-2024-09-28T234638+0200.tar.gz'
+15 silly reify ]
+16 silly reify mark retired [ '/home/container/node_modules/aki-api' ]
+17 silly reify mark retired [
+17 silly reify   '/home/container/node_modules/acorn',
+17 silly reify   '/home/container/node_modules/.bin/acorn'
+17 silly reify ]
+18 silly reify mark retired [
+18 silly reify   '/home/container/node_modules/acorn-globals/node_modules/acorn',
+18 silly reify   '/home/container/node_modules/acorn-globals/node_modules/.bin/acorn'
+18 silly reify ]
+19 silly reify mark retired [ '/home/container/node_modules/assemblyai' ]
+20 silly reify mark retired [ '/home/container/node_modules/aptoide-scraper' ]
+21 silly reify mark retired [ '/home/container/node_modules/awesome-phonenumber' ]
+22 silly reify mark retired [ '/home/container/node_modules/array-back' ]
+23 silly reify mark retired [ '/home/container/node_modules/betabotz-tools' ]
+24 silly reify mark retired [ '/home/container/node_modules/cacheable-request' ]
+25 silly reify mark retired [ '/home/container/node_modules/cacheable-lookup' ]
+26 silly reify mark retired [
+26 silly reify   '/home/container/node_modules/cfonts',
+26 silly reify   '/home/container/node_modules/.bin/cfonts'
+26 silly reify ]
+27 silly reify mark retired [ '/home/container/node_modules/child_process' ]
+28 silly reify mark retired [ '/home/container/node_modules/clone-response' ]
+29 silly reify mark retired [ '/home/container/node_modules/cli-cursor' ]
+30 silly reify mark retired [ '/home/container/node_modules/cli-spinners' ]
+31 silly reify mark retired [ '/home/container/node_modules/component-emitter' ]
+32 silly reify mark retired [ '/home/container/node_modules/command-line-args' ]
+33 silly reify mark retired [ '/home/container/node_modules/cookiejar' ]
+34 silly reify mark retired [ '/home/container/node_modules/cookie' ]
+35 silly reify mark retired [ '/home/container/node_modules/configstore' ]
+36 silly reify mark retired [ '/home/container/node_modules/crypto-random-string' ]
+37 silly reify mark retired [ '/home/container/node_modules/decompress-response' ]
+38 silly reify mark retired [ '/home/container/node_modules/defer-to-connect' ]
+39 silly reify mark retired [ '/home/container/node_modules/dom-serializer' ]
+40 silly reify mark retired [ '/home/container/node_modules/defaults' ]
+41 silly reify mark retired [ '/home/container/node_modules/dot-prop' ]
+42 silly reify mark retired [ '/home/container/node_modules/data-uri-to-buffer' ]
+43 silly reify mark retired [
+43 silly reify   '/home/container/node_modules/esprima',
+43 silly reify   '/home/container/node_modules/.bin/esparse',
+43 silly reify   '/home/container/node_modules/.bin/esvalidate'
+43 silly reify ]
+44 silly reify mark retired [
+44 silly reify   '/home/container/node_modules/escodegen',
+44 silly reify   '/home/container/node_modules/.bin/esgenerate',
+44 silly reify   '/home/container/node_modules/.bin/escodegen'
+44 silly reify ]
+45 silly reify mark retired [ '/home/container/node_modules/fast-safe-stringify' ]
+46 silly reify mark retired [ '/home/container/node_modules/fetch-blob' ]
+47 silly reify mark retired [ '/home/container/node_modules/formidable' ]
+48 silly reify mark retired [ '/home/container/node_modules/find-replace' ]
+49 silly reify mark retired [ '/home/container/node_modules/get-stream' ]
+50 silly reify mark retired [ '/home/container/node_modules/file_size_url' ]
+51 silly reify mark retired [ '/home/container/node_modules/gifwrap' ]
+52 silly reify mark retired [ '/home/container/node_modules/fs' ]
+53 silly reify mark retired [ '/home/container/node_modules/googlethis' ]
+54 silly reify mark retired [ '/home/container/node_modules/formdata-polyfill' ]
+55 silly reify mark retired [ '/home/container/node_modules/got' ]
+56 silly reify mark retired [
+56 silly reify   '/home/container/node_modules/google-it',
+56 silly reify   '/home/container/node_modules/.bin/google-it'
+56 silly reify ]
+57 silly reify mark retired [ '/home/container/node_modules/html-entities' ]
+58 silly reify mark retired [ '/home/container/node_modules/http-cache-semantics' ]
+59 silly reify mark retired [ '/home/container/node_modules/http2-wrapper' ]
+60 silly reify mark retired [ '/home/container/node_modules/human-readable' ]
+61 silly reify mark retired [ '/home/container/node_modules/idb-keyval' ]
+62 silly reify mark retired [ '/home/container/node_modules/iconv-lite' ]
+63 silly reify mark retired [ '/home/container/node_modules/is-keyword-js' ]
+64 silly reify mark retired [ '/home/container/node_modules/is-interactive' ]
+65 silly reify mark retired [ '/home/container/node_modules/is-electron' ]
+66 silly reify mark retired [ '/home/container/node_modules/isomorphic-fetch' ]
+67 silly reify mark retired [ '/home/container/node_modules/jimp' ]
+68 silly reify mark retired [ '/home/container/node_modules/json-buffer' ]
+69 silly reify mark retired [ '/home/container/node_modules/keyv' ]
+70 silly reify mark retired [
+70 silly reify   '/home/container/node_modules/libsignal/node_modules/protobufjs',
+70 silly reify   '/home/container/node_modules/libsignal/node_modules/.bin/pbjs',
+70 silly reify   '/home/container/node_modules/libsignal/node_modules/.bin/pbts'
+70 silly reify ]
+71 silly reify mark retired [ '/home/container/node_modules/is-obj' ]
+72 silly reify mark retired [ '/home/container/node_modules/load-bmfont' ]
+73 silly reify mark retired [ '/home/container/node_modules/lowercase-keys' ]
+74 silly reify mark retired [ '/home/container/node_modules/libphonenumber-js' ]
+75 silly reify mark retired [ '/home/container/node_modules/methods' ]
+76 silly reify mark retired [ '/home/container/node_modules/log-symbols' ]
+77 silly reify mark retired [
+77 silly reify   '/home/container/node_modules/mime',
+77 silly reify   '/home/container/node_modules/.bin/mime'
+77 silly reify ]
+78 silly reify mark retired [ '/home/container/node_modules/mimic-response' ]
+79 silly reify mark retired [ '/home/container/node_modules/lodash.camelcase' ]
+80 silly reify mark retired [ '/home/container/node_modules/mimic-fn' ]
+81 silly reify mark retired [ '/home/container/node_modules/mute-stream' ]
+82 silly reify mark retired [ '/home/container/node_modules/node-id3' ]
+83 silly reify mark retired [ '/home/container/node_modules/node-domexception' ]
+84 silly reify mark retired [
+84 silly reify   '/home/container/node_modules/node-fzf',
+84 silly reify   '/home/container/node_modules/.bin/nfzf'
+84 silly reify ]
+85 silly reify mark retired [ '/home/container/node_modules/num-or-not' ]
+86 silly reify mark retired [ '/home/container/node_modules/normalize-url' ]
+87 silly reify mark retired [ '/home/container/node_modules/node-youtube-music' ]
+88 silly reify mark retired [ '/home/container/node_modules/onetime' ]
+89 silly reify mark retired [ '/home/container/node_modules/openai' ]
+90 silly reify mark retired [ '/home/container/node_modules/p-cancelable' ]
+91 silly reify mark retired [
+91 silly reify   '/home/container/node_modules/opencollective-postinstall',
+91 silly reify   '/home/container/node_modules/.bin/opencollective-postinstall'
+91 silly reify ]
+92 silly reify mark retired [
+92 silly reify   '/home/container/node_modules/pino',
+92 silly reify   '/home/container/node_modules/.bin/pino'
+92 silly reify ]
+93 silly reify mark retired [ '/home/container/node_modules/ora' ]
+94 silly reify mark retired [ '/home/container/node_modules/os' ]
+95 silly reify mark retired [
+95 silly reify   '/home/container/node_modules/pixelmatch',
+95 silly reify   '/home/container/node_modules/.bin/pixelmatch'
+95 silly reify ]
+96 silly reify mark retired [ '/home/container/node_modules/pngjs' ]
+97 silly reify mark retired [ '/home/container/node_modules/pump' ]
+98 silly reify mark retired [ '/home/container/node_modules/pokemon.js' ]
+99 silly reify mark retired [
+99 silly reify   '/home/container/node_modules/qrcode-terminal',
+99 silly reify   '/home/container/node_modules/.bin/qrcode-terminal'
+99 silly reify ]
+100 silly reify mark retired [ '/home/container/node_modules/quick-lru' ]
+101 silly reify mark retired [ '/home/container/node_modules/qs' ]
+102 silly reify mark retired [ '/home/container/node_modules/resolve-alpn' ]
+103 silly reify mark retired [
+103 silly reify   '/home/container/node_modules/request/node_modules/uuid',
+103 silly reify   '/home/container/node_modules/request/node_modules/.bin/uuid'
+103 silly reify ]
+104 silly reify mark retired [ '/home/container/node_modules/responselike' ]
+105 silly reify mark retired [ '/home/container/node_modules/readline' ]
+106 silly reify mark retired [
+106 silly reify   '/home/container/node_modules/rsnchat',
+106 silly reify   '/home/container/node_modules/.bin/rsnchat'
+106 silly reify ]
+107 silly reify mark retired [ '/home/container/node_modules/restore-cursor' ]
+108 silly reify mark retired [
+108 silly reify   '/home/container/node_modules/semver',
+108 silly reify   '/home/container/node_modules/.bin/semver'
+108 silly reify ]
+109 silly reify mark retired [ '/home/container/node_modules/safe-eval' ]
+110 silly reify mark retired [ '/home/container/node_modules/signal-exit' ]
+111 silly reify mark retired [ '/home/container/node_modules/scr-emoji' ]
+112 silly reify mark retired [ '/home/container/node_modules/spotifydl-core' ]
+113 silly reify mark retired [ '/home/container/node_modules/spotify-web-api-node' ]
+114 silly reify mark retired [ '/home/container/node_modules/superagent' ]
+115 silly reify mark retired [ '/home/container/node_modules/tesseract.js-core' ]
+116 silly reify mark retired [ '/home/container/node_modules/tesseract.js' ]
+117 silly reify mark retired [ '/home/container/node_modules/strip-ansi' ]
+118 silly reify mark retired [ '/home/container/node_modules/translate-google' ]
+119 silly reify mark retired [ '/home/container/node_modules/trim' ]
+120 silly reify mark retired [ '/home/container/node_modules/tslib' ]
+121 silly reify mark retired [ '/home/container/node_modules/type-fest' ]
+122 silly reify mark retired [ '/home/container/node_modules/typedarray-to-buffer' ]
+123 silly reify mark retired [ '/home/container/node_modules/unraw' ]
+124 silly reify mark retired [ '/home/container/node_modules/user-agents' ]
+125 silly reify mark retired [ '/home/container/node_modules/typical' ]
+126 silly reify mark retired [ '/home/container/node_modules/utif2' ]
+127 silly reify mark retired [ '/home/container/node_modules/unique-string' ]
+128 silly reify mark retired [
+128 silly reify   '/home/container/node_modules/uuid',
+128 silly reify   '/home/container/node_modules/.bin/uuid'
+128 silly reify ]
+129 silly reify mark retired [ '/home/container/node_modules/wasm-feature-detect' ]
+130 silly reify mark retired [ '/home/container/node_modules/wcwidth' ]
+131 silly reify mark retired [
+131 silly reify   '/home/container/node_modules/which',
+131 silly reify   '/home/container/node_modules/.bin/which'
+131 silly reify ]
+132 silly reify mark retired [
+132 silly reify   '/home/container/node_modules/window-size',
+132 silly reify   '/home/container/node_modules/.bin/window-size'
+132 silly reify ]
+133 silly reify mark retired [ '/home/container/node_modules/web-streams-polyfill' ]
+134 silly reify mark retired [ '/home/container/node_modules/whatwg-fetch' ]
+135 silly reify mark retired [ '/home/container/node_modules/xdg-basedir' ]
+136 silly reify mark retired [
+136 silly reify   '/home/container/node_modules/yt-search',
+136 silly reify   '/home/container/node_modules/.bin/yt-search',
+136 silly reify   '/home/container/node_modules/.bin/yt-search-video',
+136 silly reify   '/home/container/node_modules/.bin/yt-search-audio'
+136 silly reify ]
+137 silly reify mark retired [ '/home/container/node_modules/youtubedl-core' ]
+138 silly reify mark retired [
+138 silly reify   '/home/container/node_modules/youtube-yts',
+138 silly reify   '/home/container/node_modules/.bin/yt-search',
+138 silly reify   '/home/container/node_modules/.bin/yt-search-video',
+138 silly reify   '/home/container/node_modules/.bin/yt-search-audio'
+138 silly reify ]
+139 silly reify mark retired [ '/home/container/node_modules/zlibjs' ]
+140 silly reify mark retired [ '/home/container/node_modules/zod' ]
+141 silly reify mark retired [ '/home/container/node_modules/xzons-api' ]
+142 silly reify mark retired [ '/home/container/node_modules/@jimp/core' ]
+143 silly reify mark retired [ '/home/container/node_modules/@jimp/bmp' ]
+144 silly reify mark retired [ '/home/container/node_modules/@jimp/custom' ]
+145 silly reify mark retired [ '/home/container/node_modules/@jimp/jpeg' ]
+146 silly reify mark retired [ '/home/container/node_modules/@jimp/gif' ]
+147 silly reify mark retired [ '/home/container/node_modules/@jimp/plugin-blit' ]
+148 silly reify mark retired [ '/home/container/node_modules/@jimp/plugin-blur' ]
+149 silly reify mark retired [ '/home/container/node_modules/@jimp/plugin-circle' ]
+150 silly reify mark retired [ '/home/container/node_modules/@jimp/plugin-color' ]
+151 silly reify mark retired [ '/home/container/node_modules/@jimp/plugin-contain' ]
+152 silly reify mark retired [ '/home/container/node_modules/@jimp/plugin-crop' ]
+153 silly reify mark retired [ '/home/container/node_modules/@google/generative-ai' ]
+154 silly reify mark retired [ '/home/container/node_modules/@jimp/plugin-dither' ]
+155 silly reify mark retired [ '/home/container/node_modules/@jimp/plugin-cover' ]
+156 silly reify mark retired [ '/home/container/node_modules/@jimp/plugin-flip' ]
+157 silly reify mark retired [ '/home/container/node_modules/@jimp/plugin-displace' ]
+158 silly reify mark retired [ '/home/container/node_modules/@jimp/plugin-gaussian' ]
+159 silly reify mark retired [ '/home/container/node_modules/@jimp/plugin-fisheye' ]
+160 silly reify mark retired [ '/home/container/node_modules/@jimp/plugin-normalize' ]
+161 silly reify mark retired [ '/home/container/node_modules/@jimp/plugin-invert' ]
+162 silly reify mark retired [ '/home/container/node_modules/@jimp/plugin-resize' ]
+163 silly reify mark retired [ '/home/container/node_modules/@jimp/plugin-mask' ]
+164 silly reify mark retired [ '/home/container/node_modules/@jimp/plugin-scale' ]
+165 silly reify mark retired [ '/home/container/node_modules/@jimp/plugin-print' ]
+166 silly reify mark retired [ '/home/container/node_modules/@jimp/plugin-rotate' ]
+167 silly reify mark retired [ '/home/container/node_modules/@jimp/plugin-shadow' ]
+168 silly reify mark retired [ '/home/container/node_modules/@bochilteam/scraper-sosmed' ]
+169 silly reify mark retired [ '/home/container/node_modules/@jimp/plugin-threshold' ]
+170 silly reify mark retired [ '/home/container/node_modules/@jimp/png' ]
+171 silly reify mark retired [ '/home/container/node_modules/@jimp/plugins' ]
+172 silly reify mark retired [ '/home/container/node_modules/@jimp/utils' ]
+173 silly reify mark retired [ '/home/container/node_modules/@jimp/types' ]
+174 silly reify mark retired [ '/home/container/node_modules/@jimp/tiff' ]
+175 silly reify mark retired [ '/home/container/node_modules/@sindresorhus/is' ]
+176 silly reify mark retired [ '/home/container/node_modules/@kamkam1_0/music-search' ]
+177 silly reify mark retired [ '/home/container/node_modules/@szmarczak/http-timer' ]
+178 silly reify mark retired [ '/home/container/node_modules/@types/keyv' ]
+179 silly reify mark retired [ '/home/container/node_modules/@types/cacheable-request' ]
+180 silly reify mark retired [ '/home/container/node_modules/@types/http-cache-semantics' ]
+181 silly reify mark retired [ '/home/container/node_modules/@whiskeysockets/baileys' ]
+182 silly reify mark retired [ '/home/container/node_modules/@types/responselike' ]
+183 silly reify mark retired [
+183 silly reify   '/home/container/node_modules/sshpk',
+183 silly reify   '/home/container/node_modules/.bin/sshpk-conv',
+183 silly reify   '/home/container/node_modules/.bin/sshpk-sign',
+183 silly reify   '/home/container/node_modules/.bin/sshpk-verify'
+183 silly reify ]
+184 silly reify moves {
+184 silly reify   '/home/container/node_modules/archive-2024-09-28T234628+0200.tar.gz': '/home/container/node_modules/.archive-2024-09-28T234628+0200.tar.gz-zJ5BS2Is',
+184 silly reify   '/home/container/node_modules/archive-2024-09-28T234638+0200.tar.gz': '/home/container/node_modules/.archive-2024-09-28T234638+0200.tar.gz-EWaGJmVf',
+184 silly reify   '/home/container/node_modules/aki-api': '/home/container/node_modules/.aki-api-5mgrdgPA',
+184 silly reify   '/home/container/node_modules/acorn': '/home/container/node_modules/.acorn-2AtqRIPU',
+184 silly reify   '/home/container/node_modules/.bin/acorn': '/home/container/node_modules/.bin/.acorn-LuH4a0XZ',
+184 silly reify   '/home/container/node_modules/acorn-globals/node_modules/acorn': '/home/container/node_modules/acorn-globals/node_modules/.acorn-igOfmnxh',
+184 silly reify   '/home/container/node_modules/acorn-globals/node_modules/.bin/acorn': '/home/container/node_modules/acorn-globals/node_modules/.bin/.acorn-fApFm1Ey',
+184 silly reify   '/home/container/node_modules/assemblyai': '/home/container/node_modules/.assemblyai-D7D2va5o',
+184 silly reify   '/home/container/node_modules/aptoide-scraper': '/home/container/node_modules/.aptoide-scraper-Fx17zl4Z',
+184 silly reify   '/home/container/node_modules/awesome-phonenumber': '/home/container/node_modules/.awesome-phonenumber-AIEGPCjz',
+184 silly reify   '/home/container/node_modules/array-back': '/home/container/node_modules/.array-back-xxl39F5F',
+184 silly reify   '/home/container/node_modules/betabotz-tools': '/home/container/node_modules/.betabotz-tools-EFm3jH27',
+184 silly reify   '/home/container/node_modules/cacheable-request': '/home/container/node_modules/.cacheable-request-WJ2E8qQZ',
+184 silly reify   '/home/container/node_modules/cacheable-lookup': '/home/container/node_modules/.cacheable-lookup-92EFs9VD',
+184 silly reify   '/home/container/node_modules/cfonts': '/home/container/node_modules/.cfonts-QgmKoJ7a',
+184 silly reify   '/home/container/node_modules/.bin/cfonts': '/home/container/node_modules/.bin/.cfonts-BoY2HhAx',
+184 silly reify   '/home/container/node_modules/child_process': '/home/container/node_modules/.child_process-BZq7zAEL',
+184 silly reify   '/home/container/node_modules/clone-response': '/home/container/node_modules/.clone-response-p0sWiava',
+184 silly reify   '/home/container/node_modules/cli-cursor': '/home/container/node_modules/.cli-cursor-13CKP37X',
+184 silly reify   '/home/container/node_modules/cli-spinners': '/home/container/node_modules/.cli-spinners-S84nYMy7',
+184 silly reify   '/home/container/node_modules/component-emitter': '/home/container/node_modules/.component-emitter-Q20Gpj2C',
+184 silly reify   '/home/container/node_modules/command-line-args': '/home/container/node_modules/.command-line-args-hyP4lKpZ',
+184 silly reify   '/home/container/node_modules/cookiejar': '/home/container/node_modules/.cookiejar-2vGmZyj8',
+184 silly reify   '/home/container/node_modules/cookie': '/home/container/node_modules/.cookie-UUT9HoAW',
+184 silly reify   '/home/container/node_modules/configstore': '/home/container/node_modules/.configstore-dnv7Dc85',
+184 silly reify   '/home/container/node_modules/crypto-random-string': '/home/container/node_modules/.crypto-random-string-uPOn5v2G',
+184 silly reify   '/home/container/node_modules/decompress-response': '/home/container/node_modules/.decompress-response-gK7nIOpX',
+184 silly reify   '/home/container/node_modules/defer-to-connect': '/home/container/node_modules/.defer-to-connect-2SXAz6qG',
+184 silly reify   '/home/container/node_modules/dom-serializer': '/home/container/node_modules/.dom-serializer-QOMdKDeJ',
+184 silly reify   '/home/container/node_modules/defaults': '/home/container/node_modules/.defaults-W4kYffTk',
+184 silly reify   '/home/container/node_modules/dot-prop': '/home/container/node_modules/.dot-prop-tVUQgm0s',
+184 silly reify   '/home/container/node_modules/data-uri-to-buffer': '/home/container/node_modules/.data-uri-to-buffer-noyFi6f6',
+184 silly reify   '/home/container/node_modules/esprima': '/home/container/node_modules/.esprima-2SDJxbBg',
+184 silly reify   '/home/container/node_modules/.bin/esparse': '/home/container/node_modules/.bin/.esparse-ARROAjjJ',
+184 silly reify   '/home/container/node_modules/.bin/esvalidate': '/home/container/node_modules/.bin/.esvalidate-LIK8IsYg',
+184 silly reify   '/home/container/node_modules/escodegen': '/home/container/node_modules/.escodegen-0Q6hQOIs',
+184 silly reify   '/home/container/node_modules/.bin/esgenerate': '/home/container/node_modules/.bin/.esgenerate-25ORikhX',
+184 silly reify   '/home/container/node_modules/.bin/escodegen': '/home/container/node_modules/.bin/.escodegen-jCJWJ3dw',
+184 silly reify   '/home/container/node_modules/fast-safe-stringify': '/home/container/node_modules/.fast-safe-stringify-LJmfpBoT',
+184 silly reify   '/home/container/node_modules/fetch-blob': '/home/container/node_modules/.fetch-blob-dIllktdf',
+184 silly reify   '/home/container/node_modules/formidable': '/home/container/node_modules/.formidable-2ptcq9rS',
+184 silly reify   '/home/container/node_modules/find-replace': '/home/container/node_modules/.find-replace-AXYKKMTY',
+184 silly reify   '/home/container/node_modules/get-stream': '/home/container/node_modules/.get-stream-Z0R0st0Q',
+184 silly reify   '/home/container/node_modules/file_size_url': '/home/container/node_modules/.file_size_url-GyoTARTH',
+184 silly reify   '/home/container/node_modules/gifwrap': '/home/container/node_modules/.gifwrap-d1D41UY6',
+184 silly reify   '/home/container/node_modules/fs': '/home/container/node_modules/.fs-MuIUpRN4',
+184 silly reify   '/home/container/node_modules/googlethis': '/home/container/node_modules/.googlethis-qQOdgBgX',
+184 silly reify   '/home/container/node_modules/formdata-polyfill': '/home/container/node_modules/.formdata-polyfill-S7gB6TJV',
+184 silly reify   '/home/container/node_modules/got': '/home/container/node_modules/.got-hTyBkcML',
+184 silly reify   '/home/container/node_modules/google-it': '/home/container/node_modules/.google-it-KqYHzT11',
+184 silly reify   '/home/container/node_modules/.bin/google-it': '/home/container/node_modules/.bin/.google-it-adVO1PM0',
+184 silly reify   '/home/container/node_modules/html-entities': '/home/container/node_modules/.html-entities-4I4IzVmF',
+184 silly reify   '/home/container/node_modules/http-cache-semantics': '/home/container/node_modules/.http-cache-semantics-W3BlpftV',
+184 silly reify   '/home/container/node_modules/http2-wrapper': '/home/container/node_modules/.http2-wrapper-D30tJDCC',
+184 silly reify   '/home/container/node_modules/human-readable': '/home/container/node_modules/.human-readable-ABoQ2qTC',
+184 silly reify   '/home/container/node_modules/idb-keyval': '/home/container/node_modules/.idb-keyval-fufUGhGj',
+184 silly reify   '/home/container/node_modules/iconv-lite': '/home/container/node_modules/.iconv-lite-Qylac7Ri',
+184 silly reify   '/home/container/node_modules/is-keyword-js': '/home/container/node_modules/.is-keyword-js-D8d4NKrj',
+184 silly reify   '/home/container/node_modules/is-interactive': '/home/container/node_modules/.is-interactive-sbqa6owX',
+184 silly reify   '/home/container/node_modules/is-electron': '/home/container/node_modules/.is-electron-lAVKRJUE',
+184 silly reify   '/home/container/node_modules/isomorphic-fetch': '/home/container/node_modules/.isomorphic-fetch-a6O8aHC4',
+184 silly reify   '/home/container/node_modules/jimp': '/home/container/node_modules/.jimp-l5SesUGJ',
+184 silly reify   '/home/container/node_modules/json-buffer': '/home/container/node_modules/.json-buffer-pe1kIpsW',
+184 silly reify   '/home/container/node_modules/keyv': '/home/container/node_modules/.keyv-hjQ4Pl2d',
+184 silly reify   '/home/container/node_modules/libsignal/node_modules/protobufjs': '/home/container/node_modules/libsignal/node_modules/.protobufjs-UwY29Ylv',
+184 silly reify   '/home/container/node_modules/libsignal/node_modules/.bin/pbjs': '/home/container/node_modules/libsignal/node_modules/.bin/.pbjs-qrT7VNGE',
+184 silly reify   '/home/container/node_modules/libsignal/node_modules/.bin/pbts': '/home/container/node_modules/libsignal/node_modules/.bin/.pbts-xmVUrAk8',
+184 silly reify   '/home/container/node_modules/is-obj': '/home/container/node_modules/.is-obj-fU4uVAIY',
+184 silly reify   '/home/container/node_modules/load-bmfont': '/home/container/node_modules/.load-bmfont-klLu3ltK',
+184 silly reify   '/home/container/node_modules/lowercase-keys': '/home/container/node_modules/.lowercase-keys-nAbU5pG4',
+184 silly reify   '/home/container/node_modules/libphonenumber-js': '/home/container/node_modules/.libphonenumber-js-EaYjRzl7',
+184 silly reify   '/home/container/node_modules/methods': '/home/container/node_modules/.methods-X5yIm3Ud',
+184 silly reify   '/home/container/node_modules/log-symbols': '/home/container/node_modules/.log-symbols-AcncQ2fl',
+184 silly reify   '/home/container/node_modules/mime': '/home/container/node_modules/.mime-OqpHjQqc',
+184 silly reify   '/home/container/node_modules/.bin/mime': '/home/container/node_modules/.bin/.mime-eoW5cL08',
+184 silly reify   '/home/container/node_modules/mimic-response': '/home/container/node_modules/.mimic-response-G5Oe4tRC',
+184 silly reify   '/home/container/node_modules/lodash.camelcase': '/home/container/node_modules/.lodash.camelcase-Gq6x9Pe3',
+184 silly reify   '/home/container/node_modules/mimic-fn': '/home/container/node_modules/.mimic-fn-IQ123sNF',
+184 silly reify   '/home/container/node_modules/mute-stream': '/home/container/node_modules/.mute-stream-4bqLkgGT',
+184 silly reify   '/home/container/node_modules/node-id3': '/home/container/node_modules/.node-id3-6YthUWd4',
+184 silly reify   '/home/container/node_modules/node-domexception': '/home/container/node_modules/.node-domexception-PgIQTk6J',
+184 silly reify   '/home/container/node_modules/node-fzf': '/home/container/node_modules/.node-fzf-gRPFblFK',
+184 silly reify   '/home/container/node_modules/.bin/nfzf': '/home/container/node_modules/.bin/.nfzf-z1MKHUIE',
+184 silly reify   '/home/container/node_modules/num-or-not': '/home/container/node_modules/.num-or-not-9v2UcxWF',
+184 silly reify   '/home/container/node_modules/normalize-url': '/home/container/node_modules/.normalize-url-KRism8DU',
+184 silly reify   '/home/container/node_modules/node-youtube-music': '/home/container/node_modules/.node-youtube-music-sx8KEDZH',
+184 silly reify   '/home/container/node_modules/onetime': '/home/container/node_modules/.onetime-VPLpTp5l',
+184 silly reify   '/home/container/node_modules/openai': '/home/container/node_modules/.openai-wASmNeTr',
+184 silly reify   '/home/container/node_modules/p-cancelable': '/home/container/node_modules/.p-cancelable-W2gkD4wA',
+184 silly reify   '/home/container/node_modules/opencollective-postinstall': '/home/container/node_modules/.opencollective-postinstall-zwTuImbJ',
+184 silly reify   '/home/container/node_modules/.bin/opencollective-postinstall': '/home/container/node_modules/.bin/.opencollective-postinstall-YzLvkIku',
+184 silly reify   '/home/container/node_modules/pino': '/home/container/node_modules/.pino-W4hvP06Q',
+184 silly reify   '/home/container/node_modules/.bin/pino': '/home/container/node_modules/.bin/.pino-XdK6afH4',
+184 silly reify   '/home/container/node_modules/ora': '/home/container/node_modules/.ora-6OgvH7lq',
+184 silly reify   '/home/container/node_modules/os': '/home/container/node_modules/.os-pQpjFseg',
+184 silly reify   '/home/container/node_modules/pixelmatch': '/home/container/node_modules/.pixelmatch-CDVOOmg0',
+184 silly reify   '/home/container/node_modules/.bin/pixelmatch': '/home/container/node_modules/.bin/.pixelmatch-9hk98AgW',
+184 silly reify   '/home/container/node_modules/pngjs': '/home/container/node_modules/.pngjs-S9iHQ38y',
+184 silly reify   '/home/container/node_modules/pump': '/home/container/node_modules/.pump-JcsNCibE',
+184 silly reify   '/home/container/node_modules/pokemon.js': '/home/container/node_modules/.pokemon.js-a277mtDm',
+184 silly reify   '/home/container/node_modules/qrcode-terminal': '/home/container/node_modules/.qrcode-terminal-53hvKJrm',
+184 silly reify   '/home/container/node_modules/.bin/qrcode-terminal': '/home/container/node_modules/.bin/.qrcode-terminal-78EnKQFw',
+184 silly reify   '/home/container/node_modules/quick-lru': '/home/container/node_modules/.quick-lru-brm2kF7n',
+184 silly reify   '/home/container/node_modules/qs': '/home/container/node_modules/.qs-amBmjPgc',
+184 silly reify   '/home/container/node_modules/resolve-alpn': '/home/container/node_modules/.resolve-alpn-1B1zDilP',
+184 silly reify   '/home/container/node_modules/request/node_modules/uuid': '/home/container/node_modules/request/node_modules/.uuid-NGGAEIZU',
+184 silly reify   '/home/container/node_modules/request/node_modules/.bin/uuid': '/home/container/node_modules/request/node_modules/.bin/.uuid-pDIPFL0Q',
+184 silly reify   '/home/container/node_modules/responselike': '/home/container/node_modules/.responselike-HfMyZrJs',
+184 silly reify   '/home/container/node_modules/readline': '/home/container/node_modules/.readline-Vq6Goj5S',
+184 silly reify   '/home/container/node_modules/rsnchat': '/home/container/node_modules/.rsnchat-nUHSUFfr',
+184 silly reify   '/home/container/node_modules/.bin/rsnchat': '/home/container/node_modules/.bin/.rsnchat-EfeheNIw',
+184 silly reify   '/home/container/node_modules/restore-cursor': '/home/container/node_modules/.restore-cursor-O1PfwAHf',
+184 silly reify   '/home/container/node_modules/semver': '/home/container/node_modules/.semver-clkkOKMn',
+184 silly reify   '/home/container/node_modules/.bin/semver': '/home/container/node_modules/.bin/.semver-6FrAJfdb',
+184 silly reify   '/home/container/node_modules/safe-eval': '/home/container/node_modules/.safe-eval-KuZo5dta',
+184 silly reify   '/home/container/node_modules/signal-exit': '/home/container/node_modules/.signal-exit-L79piyjV',
+184 silly reify   '/home/container/node_modules/scr-emoji': '/home/container/node_modules/.scr-emoji-iOoAEe8r',
+184 silly reify   '/home/container/node_modules/spotifydl-core': '/home/container/node_modules/.spotifydl-core-KSwt0Sid',
+184 silly reify   '/home/container/node_modules/spotify-web-api-node': '/home/container/node_modules/.spotify-web-api-node-Ck1Qcp8H',
+184 silly reify   '/home/container/node_modules/superagent': '/home/container/node_modules/.superagent-sueXchyP',
+184 silly reify   '/home/container/node_modules/tesseract.js-core': '/home/container/node_modules/.tesseract.js-core-KCPSjwGC',
+184 silly reify   '/home/container/node_modules/tesseract.js': '/home/container/node_modules/.tesseract.js-MOStVFV1',
+184 silly reify   '/home/container/node_modules/strip-ansi': '/home/container/node_modules/.strip-ansi-70yw5tTO',
+184 silly reify   '/home/container/node_modules/translate-google': '/home/container/node_modules/.translate-google-LXZq2ynS',
+184 silly reify   '/home/container/node_modules/trim': '/home/container/node_modules/.trim-AsoL3qYl',
+184 silly reify   '/home/container/node_modules/tslib': '/home/container/node_modules/.tslib-ANsz6Pu6',
+184 silly reify   '/home/container/node_modules/type-fest': '/home/container/node_modules/.type-fest-J1Z42lrl',
+184 silly reify   '/home/container/node_modules/typedarray-to-buffer': '/home/container/node_modules/.typedarray-to-buffer-9uFCEmYi',
+184 silly reify   '/home/container/node_modules/unraw': '/home/container/node_modules/.unraw-DOGom2fR',
+184 silly reify   '/home/container/node_modules/user-agents': '/home/container/node_modules/.user-agents-GzOt9Ew0',
+184 silly reify   '/home/container/node_modules/typical': '/home/container/node_modules/.typical-TibMOJVe',
+184 silly reify   '/home/container/node_modules/utif2': '/home/container/node_modules/.utif2-IyTjMUUw',
+184 silly reify   '/home/container/node_modules/unique-string': '/home/container/node_modules/.unique-string-lDGeGfys',
+184 silly reify   '/home/container/node_modules/uuid': '/home/container/node_modules/.uuid-bJQR8Pxz',
+184 silly reify   '/home/container/node_modules/.bin/uuid': '/home/container/node_modules/.bin/.uuid-GjpJUL4x',
+184 silly reify   '/home/container/node_modules/wasm-feature-detect': '/home/container/node_modules/.wasm-feature-detect-DtoQoign',
+184 silly reify   '/home/container/node_modules/wcwidth': '/home/container/node_modules/.wcwidth-Baz0KkN1',
+184 silly reify   '/home/container/node_modules/which': '/home/container/node_modules/.which-a0RAFcK4',
+184 silly reify   '/home/container/node_modules/.bin/which': '/home/container/node_modules/.bin/.which-tv7QeygD',
+184 silly reify   '/home/container/node_modules/window-size': '/home/container/node_modules/.window-size-VGz9cMIq',
+184 silly reify   '/home/container/node_modules/.bin/window-size': '/home/container/node_modules/.bin/.window-size-nIaxZ9XL',
+184 silly reify   '/home/container/node_modules/web-streams-polyfill': '/home/container/node_modules/.web-streams-polyfill-8DD26O7S',
+184 silly reify   '/home/container/node_modules/whatwg-fetch': '/home/container/node_modules/.whatwg-fetch-Ik7VxnZ3',
+184 silly reify   '/home/container/node_modules/xdg-basedir': '/home/container/node_modules/.xdg-basedir-PP3OzagK',
+184 silly reify   '/home/container/node_modules/yt-search': '/home/container/node_modules/.yt-search-LnpfLjVi',
+184 silly reify   '/home/container/node_modules/.bin/yt-search': '/home/container/node_modules/.bin/.yt-search-dN3xEoA0',
+184 silly reify   '/home/container/node_modules/.bin/yt-search-video': '/home/container/node_modules/.bin/.yt-search-video-OTW1cusV',
+184 silly reify   '/home/container/node_modules/.bin/yt-search-audio': '/home/container/node_modules/.bin/.yt-search-audio-xNsoPzsE',
+184 silly reify   '/home/container/node_modules/youtubedl-core': '/home/container/node_modules/.youtubedl-core-nbHewlZB',
+184 silly reify   '/home/container/node_modules/youtube-yts': '/home/container/node_modules/.youtube-yts-eTrki5Rv',
+184 silly reify   '/home/container/node_modules/zlibjs': '/home/container/node_modules/.zlibjs-8aYHbkWC',
+184 silly reify   '/home/container/node_modules/zod': '/home/container/node_modules/.zod-hzpD3Pyi',
+184 silly reify   '/home/container/node_modules/xzons-api': '/home/container/node_modules/.xzons-api-urCohgCe',
+184 silly reify   '/home/container/node_modules/@jimp/core': '/home/container/node_modules/@jimp/.core-DoDiLZks',
+184 silly reify   '/home/container/node_modules/@jimp/bmp': '/home/container/node_modules/@jimp/.bmp-cKfhyFFW',
+184 silly reify   '/home/container/node_modules/@jimp/custom': '/home/container/node_modules/@jimp/.custom-UkEcUSAH',
+184 silly reify   '/home/container/node_modules/@jimp/jpeg': '/home/container/node_modules/@jimp/.jpeg-cViSfiLl',
+184 silly reify   '/home/container/node_modules/@jimp/gif': '/home/container/node_modules/@jimp/.gif-RvqBD3sb',
+184 silly reify   '/home/container/node_modules/@jimp/plugin-blit': '/home/container/node_modules/@jimp/.plugin-blit-HSb2UpgC',
+184 silly reify   '/home/container/node_modules/@jimp/plugin-blur': '/home/container/node_modules/@jimp/.plugin-blur-gapsw0Gt',
+184 silly reify   '/home/container/node_modules/@jimp/plugin-circle': '/home/container/node_modules/@jimp/.plugin-circle-3hdBW4Ph',
+184 silly reify   '/home/container/node_modules/@jimp/plugin-color': '/home/container/node_modules/@jimp/.plugin-color-RxbTZmmt',
+184 silly reify   '/home/container/node_modules/@jimp/plugin-contain': '/home/container/node_modules/@jimp/.plugin-contain-gGvC6Acl',
+184 silly reify   '/home/container/node_modules/@jimp/plugin-crop': '/home/container/node_modules/@jimp/.plugin-crop-PJwcDMk4',
+184 silly reify   '/home/container/node_modules/@google/generative-ai': '/home/container/node_modules/@google/.generative-ai-H9VWjZNW',
+184 silly reify   '/home/container/node_modules/@jimp/plugin-dither': '/home/container/node_modules/@jimp/.plugin-dither-xTiO8UWo',
+184 silly reify   '/home/container/node_modules/@jimp/plugin-cover': '/home/container/node_modules/@jimp/.plugin-cover-RE5dJ4AC',
+184 silly reify   '/home/container/node_modules/@jimp/plugin-flip': '/home/container/node_modules/@jimp/.plugin-flip-GeXV6xDj',
+184 silly reify   '/home/container/node_modules/@jimp/plugin-displace': '/home/container/node_modules/@jimp/.plugin-displace-PyxcxNXK',
+184 silly reify   '/home/container/node_modules/@jimp/plugin-gaussian': '/home/container/node_modules/@jimp/.plugin-gaussian-3OYPezeC',
+184 silly reify   '/home/container/node_modules/@jimp/plugin-fisheye': '/home/container/node_modules/@jimp/.plugin-fisheye-bkK1ZkKr',
+184 silly reify   '/home/container/node_modules/@jimp/plugin-normalize': '/home/container/node_modules/@jimp/.plugin-normalize-vh7ejB1k',
+184 silly reify   '/home/container/node_modules/@jimp/plugin-invert': '/home/container/node_modules/@jimp/.plugin-invert-NrkX4Bf4',
+184 silly reify   '/home/container/node_modules/@jimp/plugin-resize': '/home/container/node_modules/@jimp/.plugin-resize-e4gcByfn',
+184 silly reify   '/home/container/node_modules/@jimp/plugin-mask': '/home/container/node_modules/@jimp/.plugin-mask-RqoQIy26',
+184 silly reify   '/home/container/node_modules/@jimp/plugin-scale': '/home/container/node_modules/@jimp/.plugin-scale-Ic6UkCIi',
+184 silly reify   '/home/container/node_modules/@jimp/plugin-print': '/home/container/node_modules/@jimp/.plugin-print-PqkQKim6',
+184 silly reify   '/home/container/node_modules/@jimp/plugin-rotate': '/home/container/node_modules/@jimp/.plugin-rotate-akpzWiiQ',
+184 silly reify   '/home/container/node_modules/@jimp/plugin-shadow': '/home/container/node_modules/@jimp/.plugin-shadow-dJFJTdDa',
+184 silly reify   '/home/container/node_modules/@bochilteam/scraper-sosmed': '/home/container/node_modules/@bochilteam/.scraper-sosmed-jy4dgUKq',
+184 silly reify   '/home/container/node_modules/@jimp/plugin-threshold': '/home/container/node_modules/@jimp/.plugin-threshold-mpZiXYQ3',
+184 silly reify   '/home/container/node_modules/@jimp/png': '/home/container/node_modules/@jimp/.png-sjUqif9E',
+184 silly reify   '/home/container/node_modules/@jimp/plugins': '/home/container/node_modules/@jimp/.plugins-bb6LUFHO',
+184 silly reify   '/home/container/node_modules/@jimp/utils': '/home/container/node_modules/@jimp/.utils-WNDvr5Hf',
+184 silly reify   '/home/container/node_modules/@jimp/types': '/home/container/node_modules/@jimp/.types-xDx5xDBc',
+184 silly reify   '/home/container/node_modules/@jimp/tiff': '/home/container/node_modules/@jimp/.tiff-3cpXCEO1',
+184 silly reify   '/home/container/node_modules/@sindresorhus/is': '/home/container/node_modules/@sindresorhus/.is-lDqZaxwi',
+184 silly reify   '/home/container/node_modules/@kamkam1_0/music-search': '/home/container/node_modules/@kamkam1_0/.music-search-HKYZpPPi',
+184 silly reify   '/home/container/node_modules/@szmarczak/http-timer': '/home/container/node_modules/@szmarczak/.http-timer-xKjpjB4s',
+184 silly reify   '/home/container/node_modules/@types/keyv': '/home/container/node_modules/@types/.keyv-6q5WWAkb',
+184 silly reify   '/home/container/node_modules/@types/cacheable-request': '/home/container/node_modules/@types/.cacheable-request-fouvnRoC',
+184 silly reify   '/home/container/node_modules/@types/http-cache-semantics': '/home/container/node_modules/@types/.http-cache-semantics-A9qQWyKJ',
+184 silly reify   '/home/container/node_modules/@whiskeysockets/baileys': '/home/container/node_modules/@whiskeysockets/.baileys-QvhtQxVQ',
+184 silly reify   '/home/container/node_modules/@types/responselike': '/home/container/node_modules/@types/.responselike-JrW65fa4',
+184 silly reify   '/home/container/node_modules/sshpk': '/home/container/node_modules/.sshpk-pbW7LSLy',
+184 silly reify   '/home/container/node_modules/.bin/sshpk-conv': '/home/container/node_modules/.bin/.sshpk-conv-pZmWOdYB',
+184 silly reify   '/home/container/node_modules/.bin/sshpk-sign': '/home/container/node_modules/.bin/.sshpk-sign-dkWzsPot',
+184 silly reify   '/home/container/node_modules/.bin/sshpk-verify': '/home/container/node_modules/.bin/.sshpk-verify-RLjELPn5'
+184 silly reify }
+185 silly audit bulk request {
+185 silly audit   '@adiwajshing/keyed-db': [ '0.2.4' ],
+185 silly audit   '@babel/runtime': [ '7.25.6' ],
+185 silly audit   'regenerator-runtime': [ '0.14.1', '0.13.11' ],
+185 silly audit   '@eshaz/web-worker': [ '1.2.2' ],
+185 silly audit   '@hapi/boom': [ '9.1.4' ],
+185 silly audit   '@hapi/hoek': [ '9.3.0' ],
+185 silly audit   '@jimp/bmp': [ '0.16.13' ],
+185 silly audit   '@jimp/core': [ '0.16.13' ],
+185 silly audit   pixelmatch: [ '4.0.2', '6.0.0' ],
+185 silly audit   '@jimp/custom': [ '0.16.13' ],
+185 silly audit   '@jimp/gif': [ '0.16.13' ],
+185 silly audit   '@jimp/jpeg': [ '0.16.13' ],
+185 silly audit   '@jimp/plugin-blit': [ '0.16.13' ],
+185 silly audit   '@jimp/plugin-blur': [ '0.16.13' ],
+185 silly audit   '@jimp/plugin-circle': [ '0.16.13' ],
+185 silly audit   '@jimp/plugin-color': [ '0.16.13' ],
+185 silly audit   '@jimp/plugin-contain': [ '0.16.13' ],
+185 silly audit   '@jimp/plugin-cover': [ '0.16.13' ],
+185 silly audit   '@jimp/plugin-crop': [ '0.16.13' ],
+185 silly audit   '@jimp/plugin-displace': [ '0.16.13' ],
+185 silly audit   '@jimp/plugin-dither': [ '0.16.13' ],
+185 silly audit   '@jimp/plugin-fisheye': [ '0.16.13' ],
+185 silly audit   '@jimp/plugin-flip': [ '0.16.13' ],
+185 silly audit   '@jimp/plugin-gaussian': [ '0.16.13' ],
+185 silly audit   '@jimp/plugin-invert': [ '0.16.13' ],
+185 silly audit   '@jimp/plugin-mask': [ '0.16.13' ],
+185 silly audit   '@jimp/plugin-normalize': [ '0.16.13' ],
+185 silly audit   '@jimp/plugin-print': [ '0.16.13' ],
+185 silly audit   '@jimp/plugin-resize': [ '0.16.13' ],
+185 silly audit   '@jimp/plugin-rotate': [ '0.16.13' ],
+185 silly audit   '@jimp/plugin-scale': [ '0.16.13' ],
+185 silly audit   '@jimp/plugin-shadow': [ '0.16.13' ],
+185 silly audit   '@jimp/plugin-threshold': [ '0.16.13' ],
+185 silly audit   '@jimp/plugins': [ '0.16.13' ],
+185 silly audit   '@jimp/png': [ '0.16.13' ],
+185 silly audit   '@jimp/tiff': [ '0.16.13' ],
+185 silly audit   '@jimp/types': [ '0.16.13' ],
+185 silly audit   '@jimp/utils': [ '0.16.13' ],
+185 silly audit   '@protobufjs/aspromise': [ '1.1.2' ],
+185 silly audit   '@protobufjs/base64': [ '1.1.2' ],
+185 silly audit   '@protobufjs/codegen': [ '2.0.4' ],
+185 silly audit   '@protobufjs/eventemitter': [ '1.1.0' ],
+185 silly audit   '@protobufjs/fetch': [ '1.1.0' ],
+185 silly audit   '@protobufjs/float': [ '1.0.2' ],
+185 silly audit   '@protobufjs/inquire': [ '1.1.0' ],
+185 silly audit   '@protobufjs/path': [ '1.1.2' ],
+185 silly audit   '@protobufjs/pool': [ '1.1.0' ],
+185 silly audit   '@protobufjs/utf8': [ '1.1.0' ],
+185 silly audit   '@thi.ng/bitstream': [ '2.2.63' ],
+185 silly audit   '@thi.ng/errors': [ '2.5.10' ],
+185 silly audit   '@tokenizer/token': [ '0.3.0' ],
+185 silly audit   '@tootallnate/once': [ '2.0.0', '1.1.2' ],
+185 silly audit   '@types/http-errors': [ '1.8.2' ],
+185 silly audit   '@types/long': [ '4.0.2' ],
+185 silly audit   '@types/node': [ '20.14.10', '16.9.1', '10.17.60' ],
+185 silly audit   '@vitalets/google-translate-api': [ '9.2.0' ],
+185 silly audit   '@wasm-audio-decoders/common': [ '9.0.5', '9.0.4' ],
+185 silly audit   '@wasm-audio-decoders/flac': [ '0.2.4' ],
+185 silly audit   '@wasm-audio-decoders/ogg-vorbis': [ '0.1.15' ],
+185 silly audit   '@whiskeysockets/baileys': [ '6.7.7' ],
+185 silly audit   axios: [ '1.6.1', '1.7.2', '0.21.4', '1.7.7', '0.27.2', '1.6.8' ],
+185 silly audit   abab: [ '2.0.6' ],
+185 silly audit   acorn: [ '8.12.1', '7.4.1' ],
+185 silly audit   'acorn-globals': [ '6.0.0' ],
+185 silly audit   'acorn-walk': [ '7.2.0' ],
+185 silly audit   acrcloud: [ '1.4.0' ],
+185 silly audit   'form-data': [ '2.5.1', '4.0.0', '2.3.3' ],
+185 silly audit   'agent-base': [ '6.0.2', '7.1.1' ],
+185 silly audit   ajv: [ '6.12.6' ],
+185 silly audit   'aki-api': [ '6.0.9' ],
+185 silly audit   'https-proxy-agent': [ '6.2.1', '5.0.1' ],
+185 silly audit   'ansi-regex': [ '2.1.1', '3.0.1' ],
+185 silly audit   'ansi-styles': [ '4.3.0' ],
+185 silly audit   'any-base': [ '1.1.0' ],
+185 silly audit   archiver: [ '6.0.2' ],
+185 silly audit   'archiver-utils': [ '4.0.1' ],
+185 silly audit   async: [ '3.2.6', '0.2.10', '3.2.3' ],
+185 silly audit   asn1: [ '0.2.6' ],
+185 silly audit   assemblyai: [ '4.7.0' ],
+185 silly audit   'assert-plus': [ '1.0.0' ],
+185 silly audit   'async-lock': [ '1.4.1' ],
+185 silly audit   'async.parallellimit': [ '0.5.2' ],
+185 silly audit   'async.util.eachoflimit': [ '0.5.2' ],
+185 silly audit   'async.util.isarray': [ '0.5.2' ],
+185 silly audit   'async.util.isarraylike': [ '0.5.2' ],
+185 silly audit   'async.util.keyiterator': [ '0.5.2' ],
+185 silly audit   'async.util.keys': [ '0.5.2' ],
+185 silly audit   'async.util.noop': [ '0.5.2' ],
+185 silly audit   'async.util.once': [ '0.5.2' ],
+185 silly audit   'async.util.onlyonce': [ '0.5.2' ],
+185 silly audit   'async.util.parallel': [ '0.5.2' ],
+185 silly audit   'async.util.restparam': [ '0.5.2' ],
+185 silly audit   asynckit: [ '0.4.0' ],
+185 silly audit   'atomic-sleep': [ '1.0.0' ],
+185 silly audit   'audio-buffer': [ '5.0.0' ],
+185 silly audit   'audio-decode': [ '2.2.0' ],
+185 silly audit   'audio-type': [ '2.2.1' ],
+185 silly audit   'awesome-phonenumber': [ '6.12.0' ],
+185 silly audit   'aws-sign2': [ '0.7.0' ],
+185 silly audit   aws4: [ '1.13.0' ],
+185 silly audit   'axios-ddos-guard-bypass': [ '1.0.3' ],
+185 silly audit   'tough-cookie': [ '4.1.4', '2.5.0' ],
+185 silly audit   universalify: [ '0.2.0', '2.0.1' ],
+185 silly audit   b: [ '2.0.1' ],
+185 silly audit   b4a: [ '1.6.6' ],
+185 silly audit   'balanced-match': [ '1.0.2' ],
+185 silly audit   'bare-events': [ '2.4.2' ],
+185 silly audit   'base64-js': [ '1.5.1' ],
+185 silly audit   'bcrypt-pbkdf': [ '1.0.2' ],
+185 silly audit   bluebird: [ '3.7.2' ],
+185 silly audit   'bmp-js': [ '0.1.0' ],
+185 silly audit   boolbase: [ '1.0.0' ],
+185 silly audit   boolstring: [ '1.0.2' ],
+185 silly audit   'brace-expansion': [ '1.1.11', '2.0.1' ],
+185 silly audit   'browser-process-hrtime': [ '1.0.0' ],
+185 silly audit   buffer: [ '5.7.1' ],
+185 silly audit   'buffer-crc32': [ '0.2.13' ],
+185 silly audit   'buffer-equal': [ '0.0.1' ],
+185 silly audit   'cache-manager': [ '4.0.1' ],
+185 silly audit   'call-bind': [ '1.0.7' ],
+185 silly audit   caseless: [ '0.12.0' ],
+185 silly audit   centra: [ '2.7.0' ],
+185 silly audit   cfonts: [ '2.10.1' ],
+185 silly audit   chalk: [ '4.1.2' ],
+185 silly audit   cheerio: [ '1.0.0-rc.12' ],
+185 silly audit   'cheerio-select': [ '2.1.0' ],
+185 silly audit   'dom-serializer': [ '2.0.0' ],
+185 silly audit   parse5: [ '7.1.2', '6.0.1' ],
+185 silly audit   'cli-color': [ '1.2.0' ],
+185 silly audit   clone: [ '2.1.2' ],
+185 silly audit   'codec-parser': [ '2.4.3' ],
+185 silly audit   'color-convert': [ '2.0.1' ],
+185 silly audit   'color-name': [ '1.1.4' ],
+185 silly audit   colors: [ '1.4.0' ],
+185 silly audit   'combined-stream': [ '1.0.8' ],
+185 silly audit   'compress-commons': [ '5.0.3' ],
+185 silly audit   'concat-map': [ '0.0.1' ],
+185 silly audit   'content-type': [ '1.0.5' ],
+185 silly audit   'core-util-is': [ '1.0.2' ],
+185 silly audit   'crc-32': [ '1.2.2' ],
+185 silly audit   'crc32-stream': [ '5.0.1' ],
+185 silly audit   'cross-env': [ '6.0.3' ],
+185 silly audit   'cross-spawn': [ '7.0.3' ],
+185 silly audit   which: [ '2.0.2', '1.3.1' ],
+185 silly audit   'css-select': [ '5.1.0' ],
+185 silly audit   'css-what': [ '6.1.0' ],
+185 silly audit   cssom: [ '0.5.0', '0.3.8' ],
+185 silly audit   cssstyle: [ '2.3.0' ],
+185 silly audit   csvtojson: [ '2.0.10' ],
+185 silly audit   'curve25519-js': [ '0.0.4' ],
+185 silly audit   d: [ '1.0.2' ],
+185 silly audit   dashdash: [ '1.14.1' ],
+185 silly audit   dasu: [ '0.4.3' ],
+185 silly audit   'data-urls': [ '3.0.2' ],
+185 silly audit   'whatwg-url': [ '11.0.0', '9.1.0', '5.0.0', '10.0.0' ],
+185 silly audit   debug: [ '4.3.5' ],
+185 silly audit   'decimal.js': [ '10.4.3' ],
+185 silly audit   'define-data-property': [ '1.1.4' ],
+185 silly audit   'define-property': [ '1.0.0' ],
+185 silly audit   'delayed-stream': [ '1.0.0' ],
+185 silly audit   depd: [ '2.0.0' ],
+185 silly audit   'dom-walk': [ '0.1.2' ],
+185 silly audit   domelementtype: [ '2.3.0' ],
+185 silly audit   domexception: [ '4.0.0', '2.0.1' ],
+185 silly audit   domhandler: [ '5.0.3' ],
+185 silly audit   domutils: [ '3.1.0' ],
+185 silly audit   duplexify: [ '4.1.3' ],
+185 silly audit   'ecc-jsbn': [ '0.1.2' ],
+185 silly audit   'emoji-api': [ '2.0.1' ],
+185 silly audit   'webidl-conversions': [ '5.0.0', '6.1.0', '3.0.1', '7.0.0' ],
+185 silly audit   'html-encoding-sniffer': [ '2.0.1', '3.0.0' ],
+185 silly audit   'http-proxy-agent': [ '4.0.1', '5.0.0' ],
+185 silly audit   'iconv-lite': [ '0.4.24', '0.6.3' ],
+185 silly audit   jsdom: [ '17.0.0', '19.0.0' ],
+185 silly audit   tr46: [ '2.1.0', '0.0.3', '3.0.0' ],
+185 silly audit   'w3c-xmlserializer': [ '2.0.0', '3.0.0' ],
+185 silly audit   'whatwg-encoding': [ '1.0.5', '2.0.0' ],
+185 silly audit   'whatwg-mimetype': [ '2.3.0', '3.0.0' ],
+185 silly audit   'xml-name-validator': [ '3.0.0', '4.0.0' ],
+185 silly audit   'emoji-regex': [ '10.4.0' ],
+185 silly audit   'emoji-unicode': [ '2.0.1' ],
+185 silly audit   'end-of-stream': [ '1.4.4' ],
+185 silly audit   entities: [ '4.5.0' ],
+185 silly audit   'es-define-property': [ '1.0.0' ],
+185 silly audit   'es-errors': [ '1.3.0' ],
+185 silly audit   'es5-ext': [ '0.10.64' ],
+185 silly audit   'es6-iterator': [ '2.0.3' ],
+185 silly audit   'es6-symbol': [ '3.1.4' ],
+185 silly audit   'es6-weak-map': [ '2.0.3' ],
+185 silly audit   'escape-string-regexp': [ '1.0.5' ],
+185 silly audit   escodegen: [ '2.1.0' ],
+185 silly audit   esniff: [ '2.0.1' ],
+185 silly audit   esprima: [ '4.0.1' ],
+185 silly audit   estraverse: [ '5.3.0' ],
+185 silly audit   esutils: [ '2.0.3' ],
+185 silly audit   'event-emitter': [ '0.3.5' ],
+185 silly audit   'exif-parser': [ '0.1.12' ],
+185 silly audit   ext: [ '1.7.0' ],
+185 silly audit   extend: [ '3.0.2' ],
+185 silly audit   extsprintf: [ '1.3.0', '1.4.1' ],
+185 silly audit   'fake-useragent': [ '1.0.1' ],
+185 silly audit   'fast-deep-equal': [ '3.1.3' ],
+185 silly audit   'fast-fifo': [ '1.3.2' ],
+185 silly audit   'fast-json-stable-stringify': [ '2.1.0' ],
+185 silly audit   'fast-redact': [ '3.5.0' ],
+185 silly audit   'file-type': [ '16.5.4' ],
+185 silly audit   'fluent-ffmpeg': [ '2.1.3' ],
+185 silly audit   'follow-redirects': [ '1.15.6' ],
+185 silly audit   'forever-agent': [ '0.6.1' ],
+185 silly audit   'fs-extra': [ '11.2.0' ],
+185 silly audit   'fs.realpath': [ '1.0.0' ],
+185 silly audit   'function-bind': [ '1.1.2' ],
+185 silly audit   'futoin-hkdf': [ '1.5.3' ],
+185 silly audit   'get-intrinsic': [ '1.2.4' ],
+185 silly audit   getpass: [ '0.1.7' ],
+185 silly audit   gifwrap: [ '0.9.4' ],
+185 silly audit   glob: [ '8.1.0' ],
+185 silly audit   minimatch: [ '5.1.6', '3.0.8' ],
+185 silly audit   global: [ '4.4.0' ],
+185 silly audit   gopd: [ '1.0.1' ],
+185 silly audit   'graceful-fs': [ '4.2.11' ],
+185 silly audit   'har-schema': [ '2.0.0' ],
+185 silly audit   'har-validator': [ '5.1.5' ],
+185 silly audit   'has-flag': [ '4.0.0' ],
+185 silly audit   'has-property-descriptors': [ '1.0.2' ],
+185 silly audit   'has-proto': [ '1.0.3' ],
+185 silly audit   'has-symbols': [ '1.0.3' ],
+185 silly audit   hasown: [ '2.0.2' ],
+185 silly audit   htmlparser2: [ '8.0.2' ],
+185 silly audit   'http-errors': [ '2.0.0' ],
+185 silly audit   'http-signature': [ '1.2.0' ],
+185 silly audit   'human-time': [ '0.0.2' ],
+185 silly audit   ieee754: [ '1.2.1' ],
+185 silly audit   'image-q': [ '4.0.0' ],
+185 silly audit   imurmurhash: [ '0.1.4' ],
+185 silly audit   inflight: [ '1.0.6' ],
+185 silly audit   inherits: [ '2.0.4' ],
+185 silly audit   'is-accessor-descriptor': [ '1.0.1' ],
+185 silly audit   'is-buffer': [ '1.1.6' ],
+185 silly audit   'is-data-descriptor': [ '1.0.1' ],
+185 silly audit   'is-descriptor': [ '1.0.3' ],
+185 silly audit   'is-fullwidth-code-point': [ '2.0.0' ],
+185 silly audit   'is-function': [ '1.0.2' ],
+185 silly audit   'is-number': [ '3.0.0' ],
+185 silly audit   'is-potential-custom-element-name': [ '1.0.1' ],
+185 silly audit   'is-promise': [ '2.2.2' ],
+185 silly audit   'is-typedarray': [ '1.0.0' ],
+185 silly audit   'is-url': [ '1.2.4' ],
+185 silly audit   'is-utf8': [ '0.2.1' ],
+185 silly audit   isarray: [ '1.0.0' ],
+185 silly audit   isexe: [ '2.0.0' ],
+185 silly audit   isstream: [ '0.1.2' ],
+185 silly audit   jimp: [ '0.16.13' ],
+185 silly audit   'jpeg-js': [ '0.4.4' ],
+185 silly audit   jsbn: [ '0.1.1' ],
+185 silly audit   'json-schema': [ '0.4.0' ],
+185 silly audit   'json-schema-traverse': [ '0.4.1' ],
+185 silly audit   'json-stringify-safe': [ '5.0.1' ],
+185 silly audit   jsonfile: [ '6.1.0' ],
+185 silly audit   'jsonpath-plus': [ '5.0.7' ],
+185 silly audit   jsprim: [ '1.4.2' ],
+185 silly audit   keypress: [ '0.2.1' ],
+185 silly audit   'kind-of': [ '3.2.2' ],
+185 silly audit   lazystream: [ '1.0.1' ],
+185 silly audit   'readable-stream': [ '2.3.8', '3.6.2' ],
+185 silly audit   'safe-buffer': [ '5.1.2', '5.2.1' ],
+185 silly audit   string_decoder: [ '1.1.1', '1.3.0' ],
+185 silly audit   'libphonenumber-js': [ '1.11.7' ],
+185 silly audit   '@whiskeysockets/libsignal-node': [ '2.0.1' ],
+185 silly audit   long: [ '4.0.0', '5.2.3' ],
+185 silly audit   protobufjs: [ '6.8.8', '7.3.2' ],
+185 silly audit   linkifyjs: [ '4.1.3' ],
+185 silly audit   'load-bmfont': [ '1.4.2' ],
+185 silly audit   mime: [ '1.6.0', '4.0.4' ],
+185 silly audit   phin: [ '3.7.1', '2.9.3' ],
+185 silly audit   lodash: [ '4.17.21' ],
+185 silly audit   'lodash.clonedeep': [ '4.5.0' ],
+185 silly audit   'lru-cache': [ '7.18.3' ],
+185 silly audit   'lru-queue': [ '0.1.0' ],
+185 silly audit   m3u8stream: [ '0.8.6' ],
+185 silly audit   'media-typer': [ '1.1.0' ],
+185 silly audit   memoizee: [ '0.4.17' ],
+185 silly audit   'mime-db': [ '1.52.0' ],
+185 silly audit   'mime-types': [ '2.1.35' ],
+185 silly audit   'min-document': [ '2.19.0' ],
+185 silly audit   miniget: [ '4.2.3' ],
+185 silly audit   minimist: [ '1.2.8' ],
+185 silly audit   mkdirp: [ '0.5.6' ],
+185 silly audit   moment: [ '2.30.1' ],
+185 silly audit   'moment-timezone': [ '0.5.45' ],
+185 silly audit   'mpg123-decoder': [ '0.4.12' ],
+185 silly audit   ms: [ '2.1.2' ],
+185 silly audit   multistream: [ '4.1.0' ],
+185 silly audit   'music-metadata': [ '7.14.0' ],
+185 silly audit   'next-tick': [ '1.1.0' ],
+185 silly audit   node_extra_ca_certs_mozilla_bundle: [ '1.0.5' ],
+185 silly audit   'node-cache': [ '5.1.2' ],
+185 silly audit   'node-fetch': [ '2.7.0' ],
+185 silly audit   'node-fzf': [ '0.5.3' ],
+185 silly audit   'node-localstorage': [ '1.3.1' ],
+185 silly audit   'node-upload-images': [ '1.0.1' ],
+185 silly audit   'node-wav': [ '0.0.2' ],
+185 silly audit   'node-webpmux': [ '3.2.0' ],
+185 silly audit   'normalize-path': [ '3.0.0' ],
+185 silly audit   'nth-check': [ '2.1.1' ],
+185 silly audit   nwsapi: [ '2.2.10' ],
+185 silly audit   'oauth-sign': [ '0.9.0' ],
+185 silly audit   'object-inspect': [ '1.13.2' ],
+185 silly audit   'ogg-opus-decoder': [ '1.6.12' ],
+185 silly audit   omggif: [ '1.0.10' ],
+185 silly audit   'on-exit-leak-free': [ '0.2.0' ],
+185 silly audit   once: [ '1.4.0' ],
+185 silly audit   'opus-decoder': [ '0.7.6' ],
+185 silly audit   pako: [ '1.0.11' ],
+185 silly audit   'parse-bmfont-ascii': [ '1.0.6' ],
+185 silly audit   'parse-bmfont-binary': [ '1.0.6' ],
+185 silly audit   'parse-bmfont-xml': [ '1.1.6' ],
+185 silly audit   'parse-headers': [ '2.0.5' ],
+185 silly audit   'parse5-htmlparser2-tree-adapter': [ '7.0.0' ],
+185 silly audit   'path-key': [ '3.1.1' ],
+185 silly audit   'peek-readable': [ '4.1.0' ],
+185 silly audit   'performance-now': [ '2.1.0' ],
+185 silly audit   pino: [ '7.11.0' ],
+185 silly audit   'pino-abstract-transport': [ '0.5.0' ],
+185 silly audit   'pino-std-serializers': [ '4.0.0' ],
+185 silly audit   pngjs: [ '7.0.0', '3.4.0' ],
+185 silly audit   process: [ '0.11.10' ],
+185 silly audit   'process-nextick-args': [ '2.0.1' ],
+185 silly audit   'process-warning': [ '1.0.0' ],
+185 silly audit   'proxy-from-env': [ '1.1.0' ],
+185 silly audit   psl: [ '1.9.0' ],
+185 silly audit   punycode: [ '2.3.1' ],
+185 silly audit   'qoa-format': [ '1.0.1' ],
+185 silly audit   'qrcode-terminal': [ '0.12.0' ],
+185 silly audit   qs: [ '6.13.0', '6.5.3' ],
+185 silly audit   querystringify: [ '2.2.0' ],
+185 silly audit   'queue-tick': [ '1.0.1' ],
+185 silly audit   'quick-format-unescaped': [ '4.0.4' ],
+185 silly audit   'readable-web-to-node-stream': [ '3.0.2' ],
+185 silly audit   'readdir-glob': [ '1.1.3' ],
+185 silly audit   'real-require': [ '0.1.0' ],
+185 silly audit   redstar: [ '0.0.2' ],
+185 silly audit   request: [ '2.88.2' ],
+185 silly audit   'request-promise': [ '4.2.6' ],
+185 silly audit   'request-promise-core': [ '1.1.4' ],
+185 silly audit   uuid: [ '3.4.0', '10.0.0', '8.3.2' ],
+185 silly audit   'requires-port': [ '1.0.0' ],
+185 silly audit   'safe-stable-stringify': [ '2.4.3' ],
+185 silly audit   'safer-buffer': [ '2.1.2' ],
+185 silly audit   sax: [ '1.4.1' ],
+185 silly audit   saxes: [ '5.0.1' ],
+185 silly audit   'set-function-length': [ '1.2.2' ],
+185 silly audit   setprototypeof: [ '1.2.0' ],
+185 silly audit   'shebang-command': [ '2.0.0' ],
+185 silly audit   'shebang-regex': [ '3.0.0' ],
+185 silly audit   'side-channel': [ '1.0.6' ],
+185 silly audit   'simple-yenc': [ '1.0.4' ],
+185 silly audit   slide: [ '1.1.6' ],
+185 silly audit   'sonic-boom': [ '2.8.0' ],
+185 silly audit   'source-map': [ '0.6.1' ],
+185 silly audit   split2: [ '4.2.0' ],
+185 silly audit   'spotify-finder': [ '2.1.1' ],
+185 silly audit   sshpk: [ '1.18.0' ],
+185 silly audit   statuses: [ '2.0.1' ],
+185 silly audit   'stealthy-require': [ '1.1.1' ],
+185 silly audit   'stream-shift': [ '1.0.3' ],
+185 silly audit   streamx: [ '2.20.0' ],
+185 silly audit   'string-width': [ '2.1.1' ],
+185 silly audit   'strip-ansi': [ '4.0.0' ],
+185 silly audit   'strip-bom': [ '2.0.0' ],
+185 silly audit   strtok3: [ '6.3.0' ],
+185 silly audit   'supports-color': [ '7.2.0' ],
+185 silly audit   'symbol-tree': [ '3.2.4' ],
+185 silly audit   'tar-stream': [ '3.1.7' ],
+185 silly audit   'text-decoder': [ '1.1.1' ],
+185 silly audit   'thread-stream': [ '0.15.2' ],
+185 silly audit   'timers-ext': [ '0.1.8' ],
+185 silly audit   timm: [ '1.7.1' ],
+185 silly audit   tinycolor2: [ '1.6.0' ],
+185 silly audit   toidentifier: [ '1.0.1' ],
+185 silly audit   'token-types': [ '4.2.1' ],
+185 silly audit   ttys: [ '0.0.3' ],
+185 silly audit   'tunnel-agent': [ '0.6.0' ],
+185 silly audit   tweetnacl: [ '0.14.5' ],
+185 silly audit   type: [ '2.7.3' ],
+185 silly audit   'undici-types': [ '5.26.5' ],
+185 silly audit   'uri-js': [ '4.4.1' ],
+185 silly audit   'url-parse': [ '1.5.10' ],
+185 silly audit   utif: [ '2.0.1' ],
+185 silly audit   'util-deprecate': [ '1.0.2' ],
+185 silly audit   verror: [ '1.10.0' ],
+185 silly audit   'w3c-hr-time': [ '1.0.2' ],
+185 silly audit   'webp-converter': [ '2.3.3' ],
+185 silly audit   'window-size': [ '1.1.1' ],
+185 silly audit   wrappy: [ '1.0.2' ],
+185 silly audit   'write-file-atomic': [ '1.3.4' ],
+185 silly audit   ws: [ '8.18.0' ],
+185 silly audit   x2download: [ '0.1.19' ],
+185 silly audit   xhr: [ '2.6.0' ],
+185 silly audit   'xml-parse-from-string': [ '1.0.1' ],
+185 silly audit   xml2js: [ '0.5.0' ],
+185 silly audit   xmlbuilder: [ '11.0.1' ],
+185 silly audit   xmlchars: [ '2.2.0' ],
+185 silly audit   xtend: [ '4.0.2' ],
+185 silly audit   'yt-search': [ '2.11.1' ],
+185 silly audit   'ytdl-core': [ '4.11.5' ],
+185 silly audit   'ytdownloader.js': [ '1.0.9' ],
+185 silly audit   'zip-stream': [ '5.0.2' ]
+185 silly audit }
+186 silly packumentCache corgi:https://registry.npmjs.org/sshpk cache-miss
+187 silly tarball no local data for @whiskeysockets/baileys@https://registry.npmjs.org/@whiskeysockets/baileys/-/baileys-6.7.7.tgz. Extracting by manifest.
+188 silly packumentCache corgi:https://registry.npmjs.org/yt-search cache-miss
+189 silly packumentCache corgi:https://registry.npmjs.org/window-size cache-miss
+190 silly packumentCache corgi:https://registry.npmjs.org/qrcode-terminal cache-miss
+191 silly packumentCache corgi:https://registry.npmjs.org/which cache-miss
+192 silly packumentCache corgi:https://registry.npmjs.org/uuid cache-miss
+193 silly packumentCache corgi:https://registry.npmjs.org/node-fzf cache-miss
+194 silly packumentCache corgi:https://registry.npmjs.org/pino cache-miss
+195 silly packumentCache corgi:https://registry.npmjs.org/escodegen cache-miss
+196 silly packumentCache corgi:https://registry.npmjs.org/cfonts cache-miss
+197 silly packumentCache corgi:https://registry.npmjs.org/esprima cache-miss
+198 silly packumentCache corgi:https://registry.npmjs.org/acorn cache-miss
+199 silly tarball no local data for assemblyai@https://registry.npmjs.org/assemblyai/-/assemblyai-4.7.0.tgz. Extracting by manifest.
+200 silly packumentCache corgi:https://registry.npmjs.org/uuid cache-miss
+201 silly packumentCache corgi:https://registry.npmjs.org/acorn cache-miss
+202 silly tarball no local data for utif@https://registry.npmjs.org/utif/-/utif-2.0.1.tgz. Extracting by manifest.
+203 silly tarball no local data for webp-converter@https://registry.npmjs.org/webp-converter/-/webp-converter-2.3.3.tgz. Extracting by manifest.
+204 silly tarball no local data for zip-stream@https://registry.npmjs.org/zip-stream/-/zip-stream-5.0.2.tgz. Extracting by manifest.
+205 silly tarball no local data for toidentifier@https://registry.npmjs.org/toidentifier/-/toidentifier-1.0.1.tgz. Extracting by manifest.
+206 silly tarball no local data for text-decoder@https://registry.npmjs.org/text-decoder/-/text-decoder-1.1.1.tgz. Extracting by manifest.
+207 silly tarball no local data for tar-stream@https://registry.npmjs.org/tar-stream/-/tar-stream-3.1.7.tgz. Extracting by manifest.
+208 silly tarball no local data for strip-bom@https://registry.npmjs.org/strip-bom/-/strip-bom-2.0.0.tgz. Extracting by manifest.
+209 silly tarball no local data for statuses@https://registry.npmjs.org/statuses/-/statuses-2.0.1.tgz. Extracting by manifest.
+210 silly tarball no local data for streamx@https://registry.npmjs.org/streamx/-/streamx-2.20.0.tgz. Extracting by manifest.
+211 silly tarball no local data for shebang-command@https://registry.npmjs.org/shebang-command/-/shebang-command-2.0.0.tgz. Extracting by manifest.
+212 silly tarball no local data for setprototypeof@https://registry.npmjs.org/setprototypeof/-/setprototypeof-1.2.0.tgz. Extracting by manifest.
+213 silly tarball no local data for shebang-regex@https://registry.npmjs.org/shebang-regex/-/shebang-regex-3.0.0.tgz. Extracting by manifest.
+214 silly tarball no local data for queue-tick@https://registry.npmjs.org/queue-tick/-/queue-tick-1.0.1.tgz. Extracting by manifest.
+215 silly tarball no local data for process-nextick-args@https://registry.npmjs.org/process-nextick-args/-/process-nextick-args-2.0.1.tgz. Extracting by manifest.
+216 silly tarball no local data for readdir-glob@https://registry.npmjs.org/readdir-glob/-/readdir-glob-1.1.3.tgz. Extracting by manifest.
+217 silly tarball no local data for path-key@https://registry.npmjs.org/path-key/-/path-key-3.1.1.tgz. Extracting by manifest.
+218 silly tarball no local data for normalize-path@https://registry.npmjs.org/normalize-path/-/normalize-path-3.0.0.tgz. Extracting by manifest.
+219 silly tarball no local data for lazystream@https://registry.npmjs.org/lazystream/-/lazystream-1.0.1.tgz. Extracting by manifest.
+220 silly tarball no local data for mkdirp@https://registry.npmjs.org/mkdirp/-/mkdirp-0.5.6.tgz. Extracting by manifest.
+221 silly tarball no local data for is-utf8@https://registry.npmjs.org/is-utf8/-/is-utf8-0.2.1.tgz. Extracting by manifest.
+222 silly tarball no local data for inflight@https://registry.npmjs.org/inflight/-/inflight-1.0.6.tgz. Extracting by manifest.
+223 silly tarball no local data for isarray@https://registry.npmjs.org/isarray/-/isarray-1.0.0.tgz. Extracting by manifest.
+224 silly tarball no local data for glob@https://registry.npmjs.org/glob/-/glob-8.1.0.tgz. Extracting by manifest.
+225 silly tarball no local data for http-errors@https://registry.npmjs.org/http-errors/-/http-errors-2.0.0.tgz. Extracting by manifest.
+226 silly tarball no local data for fast-fifo@https://registry.npmjs.org/fast-fifo/-/fast-fifo-1.3.2.tgz. Extracting by manifest.
+227 silly tarball no local data for fs.realpath@https://registry.npmjs.org/fs.realpath/-/fs.realpath-1.0.0.tgz. Extracting by manifest.
+228 silly tarball no local data for emoji-unicode@https://registry.npmjs.org/emoji-unicode/-/emoji-unicode-2.0.1.tgz. Extracting by manifest.
+229 silly tarball no local data for depd@https://registry.npmjs.org/depd/-/depd-2.0.0.tgz. Extracting by manifest.
+230 silly tarball no local data for cross-spawn@https://registry.npmjs.org/cross-spawn/-/cross-spawn-7.0.3.tgz. Extracting by manifest.
+231 silly tarball no local data for emoji-regex@https://registry.npmjs.org/emoji-regex/-/emoji-regex-10.4.0.tgz. Extracting by manifest.
+232 silly tarball no local data for csvtojson@https://registry.npmjs.org/csvtojson/-/csvtojson-2.0.10.tgz. Extracting by manifest.
+233 silly tarball no local data for cross-env@https://registry.npmjs.org/cross-env/-/cross-env-6.0.3.tgz. Extracting by manifest.
+234 silly tarball no local data for crc32-stream@https://registry.npmjs.org/crc32-stream/-/crc32-stream-5.0.1.tgz. Extracting by manifest.
+235 silly tarball no local data for buffer-crc32@https://registry.npmjs.org/buffer-crc32/-/buffer-crc32-0.2.13.tgz. Extracting by manifest.
+236 silly tarball no local data for centra@https://registry.npmjs.org/centra/-/centra-2.7.0.tgz. Extracting by manifest.
+237 silly tarball no local data for compress-commons@https://registry.npmjs.org/compress-commons/-/compress-commons-5.0.3.tgz. Extracting by manifest.
+238 silly tarball no local data for bare-events@https://registry.npmjs.org/bare-events/-/bare-events-2.4.2.tgz. Extracting by manifest.
+239 silly tarball no local data for crc-32@https://registry.npmjs.org/crc-32/-/crc-32-1.2.2.tgz. Extracting by manifest.
+240 silly tarball no local data for b4a@https://registry.npmjs.org/b4a/-/b4a-1.6.6.tgz. Extracting by manifest.
+241 silly tarball no local data for b@https://registry.npmjs.org/b/-/b-2.0.1.tgz. Extracting by manifest.
+242 silly tarball no local data for archiver@https://registry.npmjs.org/archiver/-/archiver-6.0.2.tgz. Extracting by manifest.
+243 silly tarball no local data for archiver-utils@https://registry.npmjs.org/archiver-utils/-/archiver-utils-4.0.1.tgz. Extracting by manifest.
+244 silly tarball no local data for @types/http-errors@https://registry.npmjs.org/@types/http-errors/-/http-errors-1.8.2.tgz. Extracting by manifest.
+245 silly tarball no local data for @vitalets/google-translate-api@https://registry.npmjs.org/@vitalets/google-translate-api/-/google-translate-api-9.2.0.tgz. Extracting by manifest.
+246 silly tarball no local data for @babel/runtime@https://registry.npmjs.org/@babel/runtime/-/runtime-7.25.6.tgz. Extracting by manifest.
+247 silly tarball no local data for @jimp/tiff@https://registry.npmjs.org/@jimp/tiff/-/tiff-0.16.13.tgz. Extracting by manifest.
+248 silly tarball no local data for @jimp/utils@https://registry.npmjs.org/@jimp/utils/-/utils-0.16.13.tgz. Extracting by manifest.
+249 silly tarball no local data for @jimp/types@https://registry.npmjs.org/@jimp/types/-/types-0.16.13.tgz. Extracting by manifest.
+250 silly tarball no local data for @jimp/plugins@https://registry.npmjs.org/@jimp/plugins/-/plugins-0.16.13.tgz. Extracting by manifest.
+251 silly tarball no local data for @jimp/png@https://registry.npmjs.org/@jimp/png/-/png-0.16.13.tgz. Extracting by manifest.
+252 silly tarball no local data for @jimp/plugin-threshold@https://registry.npmjs.org/@jimp/plugin-threshold/-/plugin-threshold-0.16.13.tgz. Extracting by manifest.
+253 silly tarball no local data for @jimp/plugin-shadow@https://registry.npmjs.org/@jimp/plugin-shadow/-/plugin-shadow-0.16.13.tgz. Extracting by manifest.
+254 silly tarball no local data for @jimp/plugin-rotate@https://registry.npmjs.org/@jimp/plugin-rotate/-/plugin-rotate-0.16.13.tgz. Extracting by manifest.
+255 silly tarball no local data for @jimp/plugin-resize@https://registry.npmjs.org/@jimp/plugin-resize/-/plugin-resize-0.16.13.tgz. Extracting by manifest.
+256 silly tarball no local data for @jimp/plugin-invert@https://registry.npmjs.org/@jimp/plugin-invert/-/plugin-invert-0.16.13.tgz. Extracting by manifest.
+257 silly tarball no local data for @jimp/plugin-scale@https://registry.npmjs.org/@jimp/plugin-scale/-/plugin-scale-0.16.13.tgz. Extracting by manifest.
+258 silly tarball no local data for @jimp/plugin-mask@https://registry.npmjs.org/@jimp/plugin-mask/-/plugin-mask-0.16.13.tgz. Extracting by manifest.
+259 silly tarball no local data for @jimp/plugin-normalize@https://registry.npmjs.org/@jimp/plugin-normalize/-/plugin-normalize-0.16.13.tgz. Extracting by manifest.
+260 silly tarball no local data for @jimp/plugin-fisheye@https://registry.npmjs.org/@jimp/plugin-fisheye/-/plugin-fisheye-0.16.13.tgz. Extracting by manifest.
+261 silly tarball no local data for @jimp/plugin-gaussian@https://registry.npmjs.org/@jimp/plugin-gaussian/-/plugin-gaussian-0.16.13.tgz. Extracting by manifest.
+262 silly tarball no local data for @jimp/plugin-displace@https://registry.npmjs.org/@jimp/plugin-displace/-/plugin-displace-0.16.13.tgz. Extracting by manifest.
+263 silly tarball no local data for @jimp/plugin-flip@https://registry.npmjs.org/@jimp/plugin-flip/-/plugin-flip-0.16.13.tgz. Extracting by manifest.
+264 silly tarball no local data for @jimp/plugin-cover@https://registry.npmjs.org/@jimp/plugin-cover/-/plugin-cover-0.16.13.tgz. Extracting by manifest.
+265 silly tarball no local data for @jimp/plugin-crop@https://registry.npmjs.org/@jimp/plugin-crop/-/plugin-crop-0.16.13.tgz. Extracting by manifest.
+266 silly tarball no local data for @jimp/plugin-dither@https://registry.npmjs.org/@jimp/plugin-dither/-/plugin-dither-0.16.13.tgz. Extracting by manifest.
+267 silly tarball no local data for @jimp/plugin-color@https://registry.npmjs.org/@jimp/plugin-color/-/plugin-color-0.16.13.tgz. Extracting by manifest.
+268 silly tarball no local data for @jimp/plugin-circle@https://registry.npmjs.org/@jimp/plugin-circle/-/plugin-circle-0.16.13.tgz. Extracting by manifest.
+269 silly tarball no local data for @jimp/plugin-blur@https://registry.npmjs.org/@jimp/plugin-blur/-/plugin-blur-0.16.13.tgz. Extracting by manifest.
+270 silly tarball no local data for @jimp/plugin-contain@https://registry.npmjs.org/@jimp/plugin-contain/-/plugin-contain-0.16.13.tgz. Extracting by manifest.
+271 silly tarball no local data for @jimp/plugin-print@https://registry.npmjs.org/@jimp/plugin-print/-/plugin-print-0.16.13.tgz. Extracting by manifest.
+272 silly tarball no local data for @jimp/gif@https://registry.npmjs.org/@jimp/gif/-/gif-0.16.13.tgz. Extracting by manifest.
+273 silly tarball no local data for @jimp/plugin-blit@https://registry.npmjs.org/@jimp/plugin-blit/-/plugin-blit-0.16.13.tgz. Extracting by manifest.
+274 silly tarball no local data for @jimp/bmp@https://registry.npmjs.org/@jimp/bmp/-/bmp-0.16.13.tgz. Extracting by manifest.
+275 silly tarball no local data for @jimp/jpeg@https://registry.npmjs.org/@jimp/jpeg/-/jpeg-0.16.13.tgz. Extracting by manifest.
+276 silly tarball no local data for @jimp/core@https://registry.npmjs.org/@jimp/core/-/core-0.16.13.tgz. Extracting by manifest.
+277 silly tarball no local data for @jimp/custom@https://registry.npmjs.org/@jimp/custom/-/custom-0.16.13.tgz. Extracting by manifest.
+278 silly tarball no local data for qs@https://registry.npmjs.org/qs/-/qs-6.13.0.tgz. Extracting by manifest.
+279 silly tarball no local data for pngjs@https://registry.npmjs.org/pngjs/-/pngjs-3.4.0.tgz. Extracting by manifest.
+280 silly tarball no local data for pixelmatch@https://registry.npmjs.org/pixelmatch/-/pixelmatch-6.0.0.tgz. Extracting by manifest.
+281 silly tarball no local data for mime@https://registry.npmjs.org/mime/-/mime-4.0.4.tgz. Extracting by manifest.
+282 silly tarball no local data for load-bmfont@https://registry.npmjs.org/load-bmfont/-/load-bmfont-1.4.2.tgz. Extracting by manifest.
+283 silly tarball no local data for libphonenumber-js@https://registry.npmjs.org/libphonenumber-js/-/libphonenumber-js-1.11.7.tgz. Extracting by manifest.
+284 silly tarball no local data for jimp@https://registry.npmjs.org/jimp/-/jimp-0.16.13.tgz. Extracting by manifest.
+285 silly tarball no local data for awesome-phonenumber@https://registry.npmjs.org/awesome-phonenumber/-/awesome-phonenumber-6.12.0.tgz. Extracting by manifest.
+286 silly tarball no local data for gifwrap@https://registry.npmjs.org/gifwrap/-/gifwrap-0.9.4.tgz. Extracting by manifest.
+287 silly tarball no local data for uuid@https://registry.npmjs.org/uuid/-/uuid-8.3.2.tgz. Extracting by manifest.
+288 silly tarball no local data for aki-api@https://registry.npmjs.org/aki-api/-/aki-api-6.0.9.tgz. Extracting by manifest.
+289 silly tarball no local data for brace-expansion@https://registry.npmjs.org/brace-expansion/-/brace-expansion-2.0.1.tgz. Extracting by manifest.
+290 silly tarball no local data for string_decoder@https://registry.npmjs.org/string_decoder/-/string_decoder-1.1.1.tgz. Extracting by manifest.
+291 silly tarball no local data for safe-buffer@https://registry.npmjs.org/safe-buffer/-/safe-buffer-5.1.2.tgz. Extracting by manifest.
+292 silly tarball no local data for readable-stream@https://registry.npmjs.org/readable-stream/-/readable-stream-2.3.8.tgz. Extracting by manifest.
+293 silly tarball no local data for minimatch@https://registry.npmjs.org/minimatch/-/minimatch-5.1.6.tgz. Extracting by manifest.
+294 silly tarball no local data for minimatch@https://registry.npmjs.org/minimatch/-/minimatch-5.1.6.tgz. Extracting by manifest.
+295 silly tarball no local data for which@https://registry.npmjs.org/which/-/which-2.0.2.tgz. Extracting by manifest.
+296 silly tarball no local data for brace-expansion@https://registry.npmjs.org/brace-expansion/-/brace-expansion-2.0.1.tgz. Extracting by manifest.
+297 silly tarball no local data for async@https://registry.npmjs.org/async/-/async-3.2.6.tgz. Extracting by manifest.
+298 silly tarball no local data for pixelmatch@https://registry.npmjs.org/pixelmatch/-/pixelmatch-4.0.2.tgz. Extracting by manifest.
+299 silly tarball no local data for pngjs@https://registry.npmjs.org/pngjs/-/pngjs-7.0.0.tgz. Extracting by manifest.
+300 silly tarball no local data for regenerator-runtime@https://registry.npmjs.org/regenerator-runtime/-/regenerator-runtime-0.14.1.tgz. Extracting by manifest.
+301 silly tarball no local data for phin@https://registry.npmjs.org/phin/-/phin-3.7.1.tgz. Extracting by manifest.
+302 silly tarball no local data for mime@https://registry.npmjs.org/mime/-/mime-1.6.0.tgz. Extracting by manifest.
+303 silly tarball no local data for universalify@https://registry.npmjs.org/universalify/-/universalify-0.2.0.tgz. Extracting by manifest.
+304 silly tarball no local data for protobufjs@https://registry.npmjs.org/protobufjs/-/protobufjs-6.8.8.tgz. Extracting by manifest.
+305 silly tarball no local data for tough-cookie@https://registry.npmjs.org/tough-cookie/-/tough-cookie-4.1.4.tgz. Extracting by manifest.
+306 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 1181ms
+307 silly audit report {
+307 silly audit report   axios: [
+307 silly audit report     {
+307 silly audit report       id: 1097679,
+307 silly audit report       url: 'https://github.com/advisories/GHSA-wf5p-g6vw-rhxx',
+307 silly audit report       title: 'Axios Cross-Site Request Forgery Vulnerability',
+307 silly audit report       severity: 'moderate',
+307 silly audit report       vulnerable_versions: '>=0.8.1 <0.28.0',
+307 silly audit report       cwe: [Array],
+307 silly audit report       cvss: [Object]
+307 silly audit report     },
+307 silly audit report     {
+307 silly audit report       id: 1098583,
+307 silly audit report       url: 'https://github.com/advisories/GHSA-8hc4-vh64-cxmj',
+307 silly audit report       title: 'Server-Side Request Forgery in axios',
+307 silly audit report       severity: 'high',
+307 silly audit report       vulnerable_versions: '>=1.3.2 <=1.7.3',
+307 silly audit report       cwe: [Array],
+307 silly audit report       cvss: [Object]
+307 silly audit report     }
+307 silly audit report   ],
+307 silly audit report   'tough-cookie': [
+307 silly audit report     {
+307 silly audit report       id: 1097682,
+307 silly audit report       url: 'https://github.com/advisories/GHSA-72xf-g2v4-qvf3',
+307 silly audit report       title: 'tough-cookie Prototype Pollution vulnerability',
+307 silly audit report       severity: 'moderate',
+307 silly audit report       vulnerable_versions: '<4.1.3',
+307 silly audit report       cwe: [Array],
+307 silly audit report       cvss: [Object]
+307 silly audit report     }
+307 silly audit report   ],
+307 silly audit report   'jsonpath-plus': [
+307 silly audit report     {
+307 silly audit report       id: 1100087,
+307 silly audit report       url: 'https://github.com/advisories/GHSA-pppg-cpfq-h7wr',
+307 silly audit report       title: 'JSONPath Plus Remote Code Execution (RCE) Vulnerability',
+307 silly audit report       severity: 'critical',
+307 silly audit report       vulnerable_versions: '<10.0.0',
+307 silly audit report       cwe: [Array],
+307 silly audit report       cvss: [Object]
+307 silly audit report     }
+307 silly audit report   ],
+307 silly audit report   phin: [
+307 silly audit report     {
+307 silly audit report       id: 1096967,
+307 silly audit report       url: 'https://github.com/advisories/GHSA-x565-32qp-m3vf',
+307 silly audit report       title: 'phin may include sensitive headers in subsequent requests after redirect',
+307 silly audit report       severity: 'moderate',
+307 silly audit report       vulnerable_versions: '<3.7.1',
+307 silly audit report       cwe: [Array],
+307 silly audit report       cvss: [Object]
+307 silly audit report     }
+307 silly audit report   ],
+307 silly audit report   request: [
+307 silly audit report     {
+307 silly audit report       id: 1096727,
+307 silly audit report       url: 'https://github.com/advisories/GHSA-p8p7-x288-28g6',
+307 silly audit report       title: 'Server-Side Request Forgery in Request',
+307 silly audit report       severity: 'moderate',
+307 silly audit report       vulnerable_versions: '<=2.88.2',
+307 silly audit report       cwe: [Array],
+307 silly audit report       cvss: [Object]
+307 silly audit report     }
+307 silly audit report   ]
+307 silly audit report }
+308 silly packumentCache corgi:https://registry.npmjs.org/axios cache-miss
+309 silly packumentCache corgi:https://registry.npmjs.org/tough-cookie cache-miss
+310 silly packumentCache corgi:https://registry.npmjs.org/jsonpath-plus cache-miss
+311 silly packumentCache corgi:https://registry.npmjs.org/phin cache-miss
+312 silly packumentCache corgi:https://registry.npmjs.org/request cache-miss
+313 http fetch GET 200 https://registry.npmjs.org/zip-stream/-/zip-stream-5.0.2.tgz 1431ms (cache miss)
+314 http fetch GET 200 https://registry.npmjs.org/setprototypeof/-/setprototypeof-1.2.0.tgz 1419ms (cache miss)
+315 http fetch GET 200 https://registry.npmjs.org/process-nextick-args/-/process-nextick-args-2.0.1.tgz 1417ms (cache miss)
+316 http fetch GET 200 https://registry.npmjs.org/inflight/-/inflight-1.0.6.tgz 1410ms (cache miss)
+317 warn deprecated inflight@1.0.6: This module is not supported, and leaks memory. Do not use it. Check out lru-cache if you want a good and tested way to coalesce async requests by a key value, which is much more comprehensive and powerful.
+318 http fetch GET 200 https://registry.npmjs.org/normalize-path/-/normalize-path-3.0.0.tgz 1416ms (cache miss)
+319 http fetch GET 200 https://registry.npmjs.org/which 1464ms (cache miss)
+320 silly packumentCache corgi:https://registry.npmjs.org/which set size:undefined disposed:false
+321 http fetch GET 200 https://registry.npmjs.org/text-decoder/-/text-decoder-1.1.1.tgz 1458ms (cache miss)
+322 http fetch GET 200 https://registry.npmjs.org/statuses/-/statuses-2.0.1.tgz 1451ms (cache miss)
+323 http fetch GET 200 https://registry.npmjs.org/isarray/-/isarray-1.0.0.tgz 1437ms (cache miss)
+324 http fetch GET 200 https://registry.npmjs.org/is-utf8/-/is-utf8-0.2.1.tgz 1440ms (cache miss)
+325 http fetch GET 200 https://registry.npmjs.org/esprima 1475ms (cache miss)
+326 silly packumentCache corgi:https://registry.npmjs.org/esprima set size:undefined disposed:false
+327 http fetch GET 200 https://registry.npmjs.org/window-size 1488ms (cache miss)
+328 silly packumentCache corgi:https://registry.npmjs.org/window-size set size:undefined disposed:false
+329 http fetch GET 200 https://registry.npmjs.org/tar-stream/-/tar-stream-3.1.7.tgz 1476ms (cache miss)
+330 http fetch GET 200 https://registry.npmjs.org/toidentifier/-/toidentifier-1.0.1.tgz 1479ms (cache miss)
+331 http fetch GET 200 https://registry.npmjs.org/strip-bom/-/strip-bom-2.0.0.tgz 1476ms (cache miss)
+332 http fetch GET 200 https://registry.npmjs.org/shebang-command/-/shebang-command-2.0.0.tgz 1470ms (cache miss)
+333 http fetch GET 200 https://registry.npmjs.org/path-key/-/path-key-3.1.1.tgz 1463ms (cache miss)
+334 http fetch GET 200 https://registry.npmjs.org/shebang-regex/-/shebang-regex-3.0.0.tgz 1468ms (cache miss)
+335 http fetch GET 200 https://registry.npmjs.org/mkdirp/-/mkdirp-0.5.6.tgz 1461ms (cache miss)
+336 http fetch GET 200 https://registry.npmjs.org/queue-tick/-/queue-tick-1.0.1.tgz 1468ms (cache miss)
+337 http fetch GET 200 https://registry.npmjs.org/emoji-unicode/-/emoji-unicode-2.0.1.tgz 1450ms (cache miss)
+338 http fetch GET 200 https://registry.npmjs.org/fs.realpath/-/fs.realpath-1.0.0.tgz 1455ms (cache miss)
+339 http fetch GET 200 https://registry.npmjs.org/crc32-stream/-/crc32-stream-5.0.1.tgz 1436ms (cache miss)
+340 http fetch GET 200 https://registry.npmjs.org/fast-fifo/-/fast-fifo-1.3.2.tgz 1457ms (cache miss)
+341 http fetch GET 200 https://registry.npmjs.org/bare-events/-/bare-events-2.4.2.tgz 1434ms (cache miss)
+342 http fetch GET 200 https://registry.npmjs.org/lazystream/-/lazystream-1.0.1.tgz 1472ms (cache miss)
+343 http fetch GET 200 https://registry.npmjs.org/depd/-/depd-2.0.0.tgz 1458ms (cache miss)
+344 http fetch GET 200 https://registry.npmjs.org/buffer-crc32/-/buffer-crc32-0.2.13.tgz 1444ms (cache miss)
+345 http fetch GET 200 https://registry.npmjs.org/glob/-/glob-8.1.0.tgz 1473ms (cache miss)
+346 warn deprecated glob@8.1.0: Glob versions prior to v9 are no longer supported
+347 http fetch GET 200 https://registry.npmjs.org/centra/-/centra-2.7.0.tgz 1450ms (cache miss)
+348 http fetch GET 200 https://registry.npmjs.org/archiver-utils/-/archiver-utils-4.0.1.tgz 1440ms (cache miss)
+349 http fetch GET 200 https://registry.npmjs.org/@types/http-errors/-/http-errors-1.8.2.tgz 1440ms (cache miss)
+350 http fetch GET 200 https://registry.npmjs.org/readdir-glob/-/readdir-glob-1.1.3.tgz 1489ms (cache miss)
+351 http fetch GET 200 https://registry.npmjs.org/http-errors/-/http-errors-2.0.0.tgz 1479ms (cache miss)
+352 http fetch GET 200 https://registry.npmjs.org/b4a/-/b4a-1.6.6.tgz 1449ms (cache miss)
+353 http fetch GET 200 https://registry.npmjs.org/emoji-regex/-/emoji-regex-10.4.0.tgz 1474ms (cache miss)
+354 http fetch GET 200 https://registry.npmjs.org/sshpk 1534ms (cache miss)
+355 silly packumentCache corgi:https://registry.npmjs.org/sshpk set size:undefined disposed:false
+356 http fetch GET 200 https://registry.npmjs.org/streamx/-/streamx-2.20.0.tgz 1508ms (cache miss)
+357 http fetch GET 200 https://registry.npmjs.org/archiver/-/archiver-6.0.2.tgz 1459ms (cache miss)
+358 http fetch GET 200 https://registry.npmjs.org/b/-/b-2.0.1.tgz 1460ms (cache miss)
+359 http fetch GET 200 https://registry.npmjs.org/node-fzf 1558ms (cache miss)
+360 silly packumentCache corgi:https://registry.npmjs.org/node-fzf set size:undefined disposed:false
+361 http fetch GET 200 https://registry.npmjs.org/qrcode-terminal 1573ms (cache miss)
+362 silly packumentCache corgi:https://registry.npmjs.org/qrcode-terminal set size:undefined disposed:false
+363 http fetch GET 200 https://registry.npmjs.org/@jimp/plugin-normalize/-/plugin-normalize-0.16.13.tgz 1463ms (cache miss)
+364 http fetch GET 200 https://registry.npmjs.org/escodegen 1594ms (cache miss)
+365 silly packumentCache corgi:https://registry.npmjs.org/escodegen set size:undefined disposed:false
+366 http fetch GET 200 https://registry.npmjs.org/crc-32/-/crc-32-1.2.2.tgz 1536ms (cache miss)
+367 http fetch GET 200 https://registry.npmjs.org/@jimp/plugin-mask/-/plugin-mask-0.16.13.tgz 1492ms (cache miss)
+368 http fetch GET 200 https://registry.npmjs.org/cross-env/-/cross-env-6.0.3.tgz 1556ms (cache miss)
+369 http fetch GET 200 https://registry.npmjs.org/uuid 1618ms (cache miss)
+370 silly packumentCache corgi:https://registry.npmjs.org/uuid set size:undefined disposed:false
+371 http fetch GET 200 https://registry.npmjs.org/@jimp/plugin-cover/-/plugin-cover-0.16.13.tgz 1456ms (cache miss)
+372 http fetch GET 200 https://registry.npmjs.org/utif/-/utif-2.0.1.tgz 1617ms (cache miss)
+373 http fetch GET 200 https://registry.npmjs.org/uuid 1626ms (cache miss)
+374 silly packumentCache corgi:https://registry.npmjs.org/uuid set size:undefined disposed:false
+375 http fetch GET 200 https://registry.npmjs.org/cross-spawn/-/cross-spawn-7.0.3.tgz 1590ms (cache miss)
+376 http fetch GET 200 https://registry.npmjs.org/@jimp/plugin-shadow/-/plugin-shadow-0.16.13.tgz 1564ms (cache miss)
+377 http fetch GET 200 https://registry.npmjs.org/@jimp/plugin-fisheye/-/plugin-fisheye-0.16.13.tgz 1516ms (cache miss)
+378 http fetch GET 200 https://registry.npmjs.org/@jimp/plugin-crop/-/plugin-crop-0.16.13.tgz 1516ms (cache miss)
+379 http fetch GET 200 https://registry.npmjs.org/cfonts 1696ms (cache miss)
+380 silly packumentCache corgi:https://registry.npmjs.org/cfonts set size:undefined disposed:false
+381 http fetch GET 200 https://registry.npmjs.org/compress-commons/-/compress-commons-5.0.3.tgz 1641ms (cache miss)
+382 http fetch GET 200 https://registry.npmjs.org/@jimp/plugins/-/plugins-0.16.13.tgz 1618ms (cache miss)
+383 http fetch GET 200 https://registry.npmjs.org/acorn 1705ms (cache miss)
+384 silly packumentCache corgi:https://registry.npmjs.org/acorn set size:undefined disposed:false
+385 http fetch GET 200 https://registry.npmjs.org/@jimp/types/-/types-0.16.13.tgz 1643ms (cache miss)
+386 http fetch GET 200 https://registry.npmjs.org/@jimp/utils/-/utils-0.16.13.tgz 1647ms (cache miss)
+387 http fetch GET 200 https://registry.npmjs.org/acorn 1754ms (cache miss)
+388 silly packumentCache corgi:https://registry.npmjs.org/acorn set size:undefined disposed:false
+389 http fetch GET 200 https://registry.npmjs.org/yt-search 1769ms (cache miss)
+390 silly packumentCache corgi:https://registry.npmjs.org/yt-search set size:undefined disposed:false
+391 http fetch GET 200 https://registry.npmjs.org/@vitalets/google-translate-api/-/google-translate-api-9.2.0.tgz 1795ms (cache miss)
+392 http fetch GET 200 https://registry.npmjs.org/@jimp/plugin-dither/-/plugin-dither-0.16.13.tgz 1726ms (cache miss)
+393 http fetch GET 200 https://registry.npmjs.org/@jimp/plugin-scale/-/plugin-scale-0.16.13.tgz 1791ms (cache miss)
+394 http fetch GET 200 https://registry.npmjs.org/@jimp/plugin-rotate/-/plugin-rotate-0.16.13.tgz 1862ms (cache miss)
+395 http fetch GET 200 https://registry.npmjs.org/@jimp/plugin-invert/-/plugin-invert-0.16.13.tgz 1918ms (cache miss)
+396 http fetch GET 200 https://registry.npmjs.org/@jimp/custom/-/custom-0.16.13.tgz 1839ms (cache miss)
+397 http fetch GET 200 https://registry.npmjs.org/@jimp/plugin-flip/-/plugin-flip-0.16.13.tgz 1891ms (cache miss)
+398 http fetch GET 200 https://registry.npmjs.org/@jimp/plugin-displace/-/plugin-displace-0.16.13.tgz 2020ms (cache miss)
+399 http fetch GET 200 https://registry.npmjs.org/@jimp/plugin-gaussian/-/plugin-gaussian-0.16.13.tgz 2022ms (cache miss)
+400 http fetch GET 200 https://registry.npmjs.org/@jimp/png/-/png-0.16.13.tgz 2183ms (cache miss)
+401 http fetch GET 200 https://registry.npmjs.org/pino 2327ms (cache miss)
+402 silly packumentCache corgi:https://registry.npmjs.org/pino set size:undefined disposed:false
+403 http fetch GET 200 https://registry.npmjs.org/load-bmfont/-/load-bmfont-1.4.2.tgz 2271ms (cache miss)
+404 http fetch GET 200 https://registry.npmjs.org/@jimp/plugin-resize/-/plugin-resize-0.16.13.tgz 2479ms (cache miss)
+405 http fetch GET 200 https://registry.npmjs.org/pixelmatch/-/pixelmatch-6.0.0.tgz 2380ms (cache miss)
+406 http fetch GET 200 https://registry.npmjs.org/string_decoder/-/string_decoder-1.1.1.tgz 2452ms (cache miss)
+407 http fetch GET 200 https://registry.npmjs.org/brace-expansion/-/brace-expansion-2.0.1.tgz 2461ms (cache miss)
+408 http fetch GET 200 https://registry.npmjs.org/aki-api/-/aki-api-6.0.9.tgz 2476ms (cache miss)
+409 http fetch GET 200 https://registry.npmjs.org/@jimp/plugin-circle/-/plugin-circle-0.16.13.tgz 2534ms (cache miss)
+410 http fetch GET 200 https://registry.npmjs.org/minimatch/-/minimatch-5.1.6.tgz 2476ms (cache miss)
+411 http fetch GET 200 https://registry.npmjs.org/brace-expansion/-/brace-expansion-2.0.1.tgz 2500ms (cache miss)
+412 http fetch GET 200 https://registry.npmjs.org/minimatch/-/minimatch-5.1.6.tgz 2502ms (cache miss)
+413 http fetch GET 200 https://registry.npmjs.org/safe-buffer/-/safe-buffer-5.1.2.tgz 2535ms (cache miss)
+414 http fetch GET 200 https://registry.npmjs.org/which/-/which-2.0.2.tgz 2511ms (cache miss)
+415 http fetch GET 200 https://registry.npmjs.org/universalify/-/universalify-0.2.0.tgz 2512ms (cache miss)
+416 http fetch GET 200 https://registry.npmjs.org/mime/-/mime-1.6.0.tgz 2520ms (cache miss)
+417 http fetch GET 200 https://registry.npmjs.org/phin/-/phin-3.7.1.tgz 2523ms (cache miss)
+418 http fetch GET 200 https://registry.npmjs.org/regenerator-runtime/-/regenerator-runtime-0.14.1.tgz 2524ms (cache miss)
+419 http fetch GET 200 https://registry.npmjs.org/@jimp/plugin-contain/-/plugin-contain-0.16.13.tgz 2689ms (cache miss)
+420 http fetch GET 200 https://registry.npmjs.org/which/-/which-1.3.1.tgz 1395ms (cache miss)
+421 http fetch GET 200 https://registry.npmjs.org/phin 2203ms (cache miss)
+422 silly packumentCache corgi:https://registry.npmjs.org/phin set size:undefined disposed:false
+423 http fetch GET 200 https://registry.npmjs.org/@jimp/plugin-blur/-/plugin-blur-0.16.13.tgz 2707ms (cache miss)
+424 http fetch GET 200 https://registry.npmjs.org/window-size/-/window-size-1.1.1.tgz 1393ms (cache miss)
+425 http fetch GET 200 https://registry.npmjs.org/escodegen/-/escodegen-2.1.0.tgz 1282ms (cache miss)
+426 http fetch GET 200 https://registry.npmjs.org/uuid/-/uuid-10.0.0.tgz 1262ms (cache miss)
+427 http fetch GET 200 https://registry.npmjs.org/tough-cookie 2228ms (cache miss)
+428 silly packumentCache corgi:https://registry.npmjs.org/tough-cookie set size:undefined disposed:false
+429 http fetch GET 200 https://registry.npmjs.org/node-fzf/-/node-fzf-0.5.3.tgz 1332ms (cache miss)
+430 http fetch GET 200 https://registry.npmjs.org/uuid/-/uuid-3.4.0.tgz 1258ms (cache miss)
+431 http fetch GET 200 https://registry.npmjs.org/tough-cookie/-/tough-cookie-4.1.4.tgz 2628ms (cache miss)
+432 http fetch GET 200 https://registry.npmjs.org/sshpk/-/sshpk-1.18.0.tgz 1374ms (cache miss)
+433 http fetch GET 200 https://registry.npmjs.org/cfonts/-/cfonts-2.10.1.tgz 1199ms (cache miss)
+434 http fetch GET 200 https://registry.npmjs.org/esprima/-/esprima-4.0.1.tgz 1431ms (cache miss)
+435 http fetch GET 200 https://registry.npmjs.org/request 2272ms (cache miss)
+436 silly packumentCache corgi:https://registry.npmjs.org/request set size:undefined disposed:false
+437 http fetch GET 200 https://registry.npmjs.org/yt-search/-/yt-search-2.11.1.tgz 1195ms (cache miss)
+438 http fetch GET 200 https://registry.npmjs.org/@jimp/plugin-threshold/-/plugin-threshold-0.16.13.tgz 2886ms (cache miss)
+439 http fetch GET 200 https://registry.npmjs.org/@jimp/gif/-/gif-0.16.13.tgz 2806ms (cache miss)
+440 http fetch GET 200 https://registry.npmjs.org/jsonpath-plus 2325ms (cache miss)
+441 silly packumentCache corgi:https://registry.npmjs.org/jsonpath-plus set size:undefined disposed:false
+442 http fetch GET 200 https://registry.npmjs.org/qs/-/qs-6.13.0.tgz 2815ms (cache miss)
+443 http fetch GET 200 https://registry.npmjs.org/axios 2354ms (cache miss)
+444 silly packumentCache corgi:https://registry.npmjs.org/axios set size:undefined disposed:false
+445 http fetch GET 200 https://registry.npmjs.org/readable-stream/-/readable-stream-2.3.8.tgz 2835ms (cache miss)
+446 http fetch GET 200 https://registry.npmjs.org/@jimp/jpeg/-/jpeg-0.16.13.tgz 2931ms (cache miss)
+447 http fetch GET 200 https://registry.npmjs.org/qrcode-terminal/-/qrcode-terminal-0.12.0.tgz 1594ms (cache miss)
+448 http fetch GET 200 https://registry.npmjs.org/mime/-/mime-4.0.4.tgz 3018ms (cache miss)
+449 silly packumentCache corgi:https://registry.npmjs.org/node_extra_ca_certs_mozilla_bundle cache-miss
+450 http fetch GET 200 https://registry.npmjs.org/awesome-phonenumber/-/awesome-phonenumber-6.12.0.tgz 3059ms (cache miss)
+451 http fetch GET 200 https://registry.npmjs.org/@jimp/plugin-color/-/plugin-color-0.16.13.tgz 3106ms (cache miss)
+452 http fetch GET 200 https://registry.npmjs.org/acorn/-/acorn-8.12.1.tgz 1522ms (cache miss)
+453 http fetch GET 200 https://registry.npmjs.org/pngjs/-/pngjs-3.4.0.tgz 3095ms (cache miss)
+454 http fetch GET 200 https://registry.npmjs.org/pngjs/-/pngjs-7.0.0.tgz 3111ms (cache miss)
+455 http fetch GET 200 https://registry.npmjs.org/@jimp/bmp/-/bmp-0.16.13.tgz 3212ms (cache miss)
+456 http fetch GET 200 https://registry.npmjs.org/@jimp/core/-/core-0.16.13.tgz 3213ms (cache miss)
+457 http fetch GET 200 https://registry.npmjs.org/@jimp/plugin-blit/-/plugin-blit-0.16.13.tgz 3289ms (cache miss)
+458 http fetch GET 200 https://registry.npmjs.org/uuid/-/uuid-8.3.2.tgz 3259ms (cache miss)
+459 http fetch GET 200 https://registry.npmjs.org/acorn/-/acorn-7.4.1.tgz 1846ms (cache miss)
+460 http fetch GET 200 https://registry.npmjs.org/pixelmatch/-/pixelmatch-4.0.2.tgz 3326ms (cache miss)
+461 http fetch GET 200 https://registry.npmjs.org/assemblyai/-/assemblyai-4.7.0.tgz 3757ms (cache miss)
+462 http fetch GET 200 https://registry.npmjs.org/@jimp/tiff/-/tiff-0.16.13.tgz 3692ms (cache miss)
+463 http fetch GET 200 https://registry.npmjs.org/@babel/runtime/-/runtime-7.25.6.tgz 3832ms (cache miss)
+464 http fetch GET 200 https://registry.npmjs.org/@jimp/plugin-print/-/plugin-print-0.16.13.tgz 3800ms (cache miss)
+465 http fetch GET 200 https://registry.npmjs.org/async/-/async-3.2.6.tgz 3717ms (cache miss)
+466 http fetch GET 200 https://registry.npmjs.org/node_extra_ca_certs_mozilla_bundle 784ms (cache miss)
+467 silly packumentCache corgi:https://registry.npmjs.org/node_extra_ca_certs_mozilla_bundle set size:undefined disposed:false
+468 http fetch GET 200 https://registry.npmjs.org/jimp/-/jimp-0.16.13.tgz 3855ms (cache miss)
+469 silly packumentCache corgi:https://registry.npmjs.org/@whiskeysockets%2fbaileys cache-miss
+470 silly packumentCache corgi:https://registry.npmjs.org/aki-api cache-miss
+471 silly packumentCache corgi:https://registry.npmjs.org/x2download cache-miss
+472 http fetch GET 200 https://registry.npmjs.org/pino/-/pino-7.11.0.tgz 1745ms (cache miss)
+473 http fetch GET 200 https://registry.npmjs.org/@whiskeysockets%2fbaileys 119ms (cache miss)
+474 silly packumentCache corgi:https://registry.npmjs.org/@whiskeysockets%2fbaileys set size:undefined disposed:false
+475 http fetch GET 200 https://registry.npmjs.org/protobufjs/-/protobufjs-6.8.8.tgz 4011ms (cache miss)
+476 http fetch GET 200 https://registry.npmjs.org/gifwrap/-/gifwrap-0.9.4.tgz 4352ms (cache miss)
+477 http fetch GET 200 https://registry.npmjs.org/@whiskeysockets/baileys/-/baileys-6.7.7.tgz 4641ms (cache miss)
+478 http fetch GET 200 https://registry.npmjs.org/x2download 701ms (cache miss)
+479 silly packumentCache corgi:https://registry.npmjs.org/x2download set size:undefined disposed:false
+480 http fetch GET 200 https://registry.npmjs.org/aki-api 708ms (cache miss)
+481 silly packumentCache corgi:https://registry.npmjs.org/aki-api set size:undefined disposed:false
+482 silly packumentCache corgi:https://registry.npmjs.org/request-promise cache-miss
+483 http fetch GET 200 https://registry.npmjs.org/request-promise 80ms (cache miss)
+484 silly packumentCache corgi:https://registry.npmjs.org/request-promise set size:undefined disposed:false
+485 silly packumentCache corgi:https://registry.npmjs.org/yt-search cache-miss
+486 http fetch GET 200 https://registry.npmjs.org/yt-search 22ms (cache hit)
+487 silly packumentCache corgi:https://registry.npmjs.org/yt-search set size:124200 disposed:false
+488 http fetch GET 200 https://registry.npmjs.org/csvtojson/-/csvtojson-2.0.10.tgz 4875ms (cache miss)
+489 silly packumentCache corgi:https://registry.npmjs.org/@jimp%2fcore cache-miss
+490 http fetch GET 200 https://registry.npmjs.org/@jimp%2fcore 89ms (cache miss)
+491 silly packumentCache corgi:https://registry.npmjs.org/@jimp%2fcore set size:undefined disposed:false
+492 silly packumentCache corgi:https://registry.npmjs.org/request-promise-core cache-miss
+493 silly packumentCache corgi:https://registry.npmjs.org/spotify-finder cache-miss
+494 silly packumentCache corgi:https://registry.npmjs.org/ytdownloader.js cache-miss
+495 http fetch GET 200 https://registry.npmjs.org/request-promise-core 84ms (cache miss)
+496 silly packumentCache corgi:https://registry.npmjs.org/request-promise-core set size:undefined disposed:false
+497 http fetch GET 200 https://registry.npmjs.org/spotify-finder 86ms (cache miss)
+498 silly packumentCache corgi:https://registry.npmjs.org/spotify-finder set size:undefined disposed:false
+499 http fetch GET 200 https://registry.npmjs.org/libphonenumber-js/-/libphonenumber-js-1.11.7.tgz 5152ms (cache miss)
+500 http fetch GET 200 https://registry.npmjs.org/webp-converter/-/webp-converter-2.3.3.tgz 5670ms (cache miss)
+501 info run protobufjs@6.8.8 postinstall node_modules/libsignal/node_modules/protobufjs node scripts/postinstall
+502 info run protobufjs@6.8.8 postinstall { code: 0, signal: null }
+503 http fetch GET 200 https://registry.npmjs.org/ytdownloader.js 1207ms (cache miss)
+504 silly packumentCache corgi:https://registry.npmjs.org/ytdownloader.js set size:undefined disposed:false
+505 silly packumentCache corgi:https://registry.npmjs.org/@jimp%2fcustom cache-miss
+506 http fetch GET 200 https://registry.npmjs.org/@jimp%2fcustom 66ms (cache miss)
+507 silly packumentCache corgi:https://registry.npmjs.org/@jimp%2fcustom set size:undefined disposed:false
+508 silly packumentCache corgi:https://registry.npmjs.org/@jimp%2fbmp cache-miss
+509 silly packumentCache corgi:https://registry.npmjs.org/@jimp%2fgif cache-miss
+510 silly packumentCache corgi:https://registry.npmjs.org/@jimp%2fjpeg cache-miss
+511 silly packumentCache corgi:https://registry.npmjs.org/@jimp%2fplugin-blit cache-miss
+512 silly packumentCache corgi:https://registry.npmjs.org/@jimp%2fplugin-blur cache-miss
+513 silly packumentCache corgi:https://registry.npmjs.org/@jimp%2fplugin-circle cache-miss
+514 silly packumentCache corgi:https://registry.npmjs.org/@jimp%2fplugin-color cache-miss
+515 silly packumentCache corgi:https://registry.npmjs.org/@jimp%2fplugin-contain cache-miss
+516 silly packumentCache corgi:https://registry.npmjs.org/@jimp%2fplugin-cover cache-miss
+517 silly packumentCache corgi:https://registry.npmjs.org/@jimp%2fplugin-crop cache-miss
+518 silly packumentCache corgi:https://registry.npmjs.org/@jimp%2fplugin-displace cache-miss
+519 silly packumentCache corgi:https://registry.npmjs.org/@jimp%2fplugin-dither cache-miss
+520 silly packumentCache corgi:https://registry.npmjs.org/@jimp%2fplugin-fisheye cache-miss
+521 silly packumentCache corgi:https://registry.npmjs.org/@jimp%2fplugin-flip cache-miss
+522 silly packumentCache corgi:https://registry.npmjs.org/@jimp%2fplugin-gaussian cache-miss
+523 silly packumentCache corgi:https://registry.npmjs.org/@jimp%2fplugin-invert cache-miss
+524 silly packumentCache corgi:https://registry.npmjs.org/@jimp%2fplugin-mask cache-miss
+525 silly packumentCache corgi:https://registry.npmjs.org/@jimp%2fplugin-normalize cache-miss
+526 silly packumentCache corgi:https://registry.npmjs.org/@jimp%2fplugin-print cache-miss
+527 silly packumentCache corgi:https://registry.npmjs.org/@jimp%2fplugin-resize cache-miss
+528 silly packumentCache corgi:https://registry.npmjs.org/@jimp%2fplugin-rotate cache-miss
+529 silly packumentCache corgi:https://registry.npmjs.org/@jimp%2fplugin-scale cache-miss
+530 silly packumentCache corgi:https://registry.npmjs.org/@jimp%2fplugin-shadow cache-miss
+531 silly packumentCache corgi:https://registry.npmjs.org/@jimp%2fplugin-threshold cache-miss
+532 silly packumentCache corgi:https://registry.npmjs.org/@jimp%2fplugins cache-miss
+533 silly packumentCache corgi:https://registry.npmjs.org/@jimp%2fpng cache-miss
+534 silly packumentCache corgi:https://registry.npmjs.org/@jimp%2ftiff cache-miss
+535 silly packumentCache corgi:https://registry.npmjs.org/@jimp%2ftypes cache-miss
+536 silly packumentCache corgi:https://registry.npmjs.org/jimp cache-miss
+537 http fetch GET 200 https://registry.npmjs.org/@jimp%2fbmp 419ms (cache miss)
+538 silly packumentCache corgi:https://registry.npmjs.org/@jimp%2fbmp set size:undefined disposed:false
+539 http fetch GET 200 https://registry.npmjs.org/@jimp%2fjpeg 445ms (cache miss)
+540 silly packumentCache corgi:https://registry.npmjs.org/@jimp%2fjpeg set size:undefined disposed:false
+541 http fetch GET 200 https://registry.npmjs.org/@jimp%2fplugin-crop 486ms (cache miss)
+542 silly packumentCache corgi:https://registry.npmjs.org/@jimp%2fplugin-crop set size:undefined disposed:false
+543 http fetch GET 200 https://registry.npmjs.org/@jimp%2fplugin-displace 585ms (cache miss)
+544 silly packumentCache corgi:https://registry.npmjs.org/@jimp%2fplugin-displace set size:undefined disposed:false
+545 http fetch GET 200 https://registry.npmjs.org/@jimp%2fplugin-flip 601ms (cache miss)
+546 silly packumentCache corgi:https://registry.npmjs.org/@jimp%2fplugin-flip set size:undefined disposed:false
+547 http fetch GET 200 https://registry.npmjs.org/@jimp%2fplugin-color 633ms (cache miss)
+548 silly packumentCache corgi:https://registry.npmjs.org/@jimp%2fplugin-color set size:undefined disposed:false
+549 http fetch GET 200 https://registry.npmjs.org/@jimp%2fplugin-gaussian 644ms (cache miss)
+550 silly packumentCache corgi:https://registry.npmjs.org/@jimp%2fplugin-gaussian set size:undefined disposed:false
+551 http fetch GET 200 https://registry.npmjs.org/@jimp%2fplugin-fisheye 699ms (cache miss)
+552 silly packumentCache corgi:https://registry.npmjs.org/@jimp%2fplugin-fisheye set size:undefined disposed:false
+553 http fetch GET 200 https://registry.npmjs.org/@jimp%2fgif 729ms (cache miss)
+554 silly packumentCache corgi:https://registry.npmjs.org/@jimp%2fgif set size:undefined disposed:false
+555 http fetch GET 200 https://registry.npmjs.org/@jimp%2fplugin-dither 735ms (cache miss)
+556 silly packumentCache corgi:https://registry.npmjs.org/@jimp%2fplugin-dither set size:undefined disposed:false
+557 http fetch GET 200 https://registry.npmjs.org/@jimp%2ftiff 740ms (cache miss)
+558 silly packumentCache corgi:https://registry.npmjs.org/@jimp%2ftiff set size:undefined disposed:false
+559 http fetch GET 200 https://registry.npmjs.org/@jimp%2fplugin-invert 793ms (cache miss)
+560 silly packumentCache corgi:https://registry.npmjs.org/@jimp%2fplugin-invert set size:undefined disposed:false
+561 http fetch GET 200 https://registry.npmjs.org/@jimp%2fplugin-contain 823ms (cache miss)
+562 silly packumentCache corgi:https://registry.npmjs.org/@jimp%2fplugin-contain set size:undefined disposed:false
+563 http fetch GET 200 https://registry.npmjs.org/@jimp%2fplugin-mask 828ms (cache miss)
+564 silly packumentCache corgi:https://registry.npmjs.org/@jimp%2fplugin-mask set size:undefined disposed:false
+565 http fetch GET 200 https://registry.npmjs.org/@jimp%2fplugin-cover 864ms (cache miss)
+566 silly packumentCache corgi:https://registry.npmjs.org/@jimp%2fplugin-cover set size:undefined disposed:false
+567 http fetch GET 200 https://registry.npmjs.org/@jimp%2fplugin-scale 865ms (cache miss)
+568 silly packumentCache corgi:https://registry.npmjs.org/@jimp%2fplugin-scale set size:undefined disposed:false
+569 http fetch GET 200 https://registry.npmjs.org/@jimp%2fplugin-normalize 886ms (cache miss)
+570 silly packumentCache corgi:https://registry.npmjs.org/@jimp%2fplugin-normalize set size:undefined disposed:false
+571 http fetch GET 200 https://registry.npmjs.org/@jimp%2fpng 895ms (cache miss)
+572 silly packumentCache corgi:https://registry.npmjs.org/@jimp%2fpng set size:undefined disposed:false
+573 http fetch GET 200 https://registry.npmjs.org/@jimp%2fplugin-rotate 918ms (cache miss)
+574 silly packumentCache corgi:https://registry.npmjs.org/@jimp%2fplugin-rotate set size:undefined disposed:false
+575 http fetch GET 200 https://registry.npmjs.org/@jimp%2fplugin-resize 938ms (cache miss)
+576 silly packumentCache corgi:https://registry.npmjs.org/@jimp%2fplugin-resize set size:undefined disposed:false
+577 http fetch GET 200 https://registry.npmjs.org/@jimp%2fplugin-print 957ms (cache miss)
+578 silly packumentCache corgi:https://registry.npmjs.org/@jimp%2fplugin-print set size:undefined disposed:false
+579 http fetch GET 200 https://registry.npmjs.org/@jimp%2fplugin-shadow 973ms (cache miss)
+580 silly packumentCache corgi:https://registry.npmjs.org/@jimp%2fplugin-shadow set size:undefined disposed:false
+581 http fetch GET 200 https://registry.npmjs.org/@jimp%2ftypes 993ms (cache miss)
+582 silly packumentCache corgi:https://registry.npmjs.org/@jimp%2ftypes set size:undefined disposed:false
+583 http fetch GET 200 https://registry.npmjs.org/@jimp%2fplugin-circle 1109ms (cache miss)
+584 silly packumentCache corgi:https://registry.npmjs.org/@jimp%2fplugin-circle set size:undefined disposed:false
+585 http fetch GET 200 https://registry.npmjs.org/@jimp%2fplugin-threshold 1098ms (cache miss)
+586 silly packumentCache corgi:https://registry.npmjs.org/@jimp%2fplugin-threshold set size:undefined disposed:false
+587 http fetch GET 200 https://registry.npmjs.org/@jimp%2fplugins 1165ms (cache miss)
+588 silly packumentCache corgi:https://registry.npmjs.org/@jimp%2fplugins set size:undefined disposed:false
+589 http fetch GET 200 https://registry.npmjs.org/jimp 1184ms (cache miss)
+590 silly packumentCache corgi:https://registry.npmjs.org/jimp set size:undefined disposed:false
+591 http fetch GET 200 https://registry.npmjs.org/@jimp%2fplugin-blur 1375ms (cache miss)
+592 silly packumentCache corgi:https://registry.npmjs.org/@jimp%2fplugin-blur set size:undefined disposed:false
+593 http fetch GET 200 https://registry.npmjs.org/@jimp%2fplugin-blit 1397ms (cache miss)
+594 silly packumentCache corgi:https://registry.npmjs.org/@jimp%2fplugin-blit set size:undefined disposed:false
+595 silly ADD node_modules/zip-stream
+596 silly ADD node_modules/webp-converter
+597 silly ADD node_modules/webp-converter/node_modules/uuid
+598 silly ADD node_modules/utif
+599 silly ADD node_modules/toidentifier
+600 silly ADD node_modules/text-decoder
+601 silly ADD node_modules/tar-stream
+602 silly ADD node_modules/strip-bom
+603 silly ADD node_modules/streamx
+604 silly ADD node_modules/statuses
+605 silly ADD node_modules/shebang-regex
+606 silly ADD node_modules/shebang-command
+607 silly ADD node_modules/setprototypeof
+608 silly ADD node_modules/readdir-glob
+609 silly ADD node_modules/readdir-glob/node_modules/minimatch
+610 silly ADD node_modules/readdir-glob/node_modules/brace-expansion
+611 silly ADD node_modules/queue-tick
+612 silly ADD node_modules/process-nextick-args
+613 silly ADD node_modules/path-key
+614 silly ADD node_modules/normalize-path
+615 silly ADD node_modules/mkdirp
+616 silly ADD node_modules/lazystream
+617 silly ADD node_modules/lazystream/node_modules/string_decoder
+618 silly ADD node_modules/lazystream/node_modules/safe-buffer
+619 silly ADD node_modules/lazystream/node_modules/readable-stream
+620 silly ADD node_modules/isarray
+621 silly ADD node_modules/is-utf8
+622 silly ADD node_modules/inflight
+623 silly ADD node_modules/http-errors
+624 silly ADD node_modules/glob
+625 silly ADD node_modules/glob/node_modules/minimatch
+626 silly ADD node_modules/glob/node_modules/brace-expansion
+627 silly ADD node_modules/fs.realpath
+628 silly ADD node_modules/fast-fifo
+629 silly ADD node_modules/emoji-unicode
+630 silly ADD node_modules/emoji-regex
+631 silly ADD node_modules/depd
+632 silly ADD node_modules/csvtojson
+633 silly ADD node_modules/cross-spawn
+634 silly ADD node_modules/cross-spawn/node_modules/which
+635 silly ADD node_modules/cross-env
+636 silly ADD node_modules/crc32-stream
+637 silly ADD node_modules/crc-32
+638 silly ADD node_modules/compress-commons
+639 silly ADD node_modules/centra
+640 silly ADD node_modules/buffer-crc32
+641 silly ADD node_modules/bare-events
+642 silly ADD node_modules/b4a
+643 silly ADD node_modules/b
+644 silly ADD node_modules/archiver-utils
+645 silly ADD node_modules/archiver
+646 silly ADD node_modules/archiver/node_modules/async
+647 silly ADD node_modules/@vitalets/google-translate-api
+648 silly ADD node_modules/@types/http-errors
+649 silly ADD node_modules/@babel/runtime
+650 silly ADD node_modules/@babel/runtime/node_modules/regenerator-runtime
+651 silly CHANGE node_modules/sshpk
+652 silly REMOVE node_modules/@types/responselike
+653 silly CHANGE node_modules/@whiskeysockets/baileys
+654 silly REMOVE node_modules/@whiskeysockets/baileys/node_modules/form-data
+655 silly REMOVE node_modules/@types/http-cache-semantics
+656 silly REMOVE node_modules/@types/cacheable-request
+657 silly REMOVE node_modules/@types/keyv
+658 silly REMOVE node_modules/@szmarczak/http-timer
+659 silly REMOVE node_modules/@kamkam1_0/music-search
+660 silly REMOVE node_modules/@sindresorhus/is
+661 silly CHANGE node_modules/@jimp/tiff
+662 silly CHANGE node_modules/@jimp/types
+663 silly CHANGE node_modules/@jimp/utils
+664 silly CHANGE node_modules/@jimp/plugins
+665 silly CHANGE node_modules/@jimp/png
+666 silly CHANGE node_modules/@jimp/plugin-threshold
+667 silly REMOVE node_modules/@bochilteam/scraper-sosmed
+668 silly CHANGE node_modules/@jimp/plugin-shadow
+669 silly CHANGE node_modules/@jimp/plugin-rotate
+670 silly CHANGE node_modules/@jimp/plugin-print
+671 silly CHANGE node_modules/@jimp/plugin-scale
+672 silly CHANGE node_modules/@jimp/plugin-mask
+673 silly CHANGE node_modules/@jimp/plugin-resize
+674 silly CHANGE node_modules/@jimp/plugin-invert
+675 silly CHANGE node_modules/@jimp/plugin-normalize
+676 silly CHANGE node_modules/@jimp/plugin-fisheye
+677 silly CHANGE node_modules/@jimp/plugin-gaussian
+678 silly CHANGE node_modules/@jimp/plugin-displace
+679 silly CHANGE node_modules/@jimp/plugin-flip
+680 silly CHANGE node_modules/@jimp/plugin-cover
+681 silly CHANGE node_modules/@jimp/plugin-dither
+682 silly REMOVE node_modules/@google/generative-ai
+683 silly CHANGE node_modules/@jimp/plugin-crop
+684 silly CHANGE node_modules/@jimp/plugin-contain
+685 silly CHANGE node_modules/@jimp/plugin-color
+686 silly CHANGE node_modules/@jimp/plugin-circle
+687 silly CHANGE node_modules/@jimp/plugin-blur
+688 silly CHANGE node_modules/@jimp/plugin-blit
+689 silly CHANGE node_modules/@jimp/gif
+690 silly CHANGE node_modules/@jimp/jpeg
+691 silly CHANGE node_modules/@jimp/custom
+692 silly CHANGE node_modules/@jimp/bmp
+693 silly CHANGE node_modules/@jimp/core
+694 silly ADD node_modules/@jimp/core/node_modules/pixelmatch
+695 silly REMOVE node_modules/xzons-api
+696 silly REMOVE node_modules/xzons-api/node_modules/axios
+697 silly REMOVE node_modules/zod
+698 silly REMOVE node_modules/zlibjs
+699 silly REMOVE node_modules/youtube-yts
+700 silly REMOVE node_modules/youtubedl-core
+701 silly CHANGE node_modules/yt-search
+702 silly REMOVE node_modules/xdg-basedir
+703 silly REMOVE node_modules/whatwg-fetch
+704 silly REMOVE node_modules/web-streams-polyfill
+705 silly CHANGE node_modules/window-size
+706 silly CHANGE node_modules/which
+707 silly REMOVE node_modules/wcwidth
+708 silly REMOVE node_modules/wasm-feature-detect
+709 silly CHANGE node_modules/uuid
+710 silly REMOVE node_modules/unique-string
+711 silly REMOVE node_modules/utif2
+712 silly REMOVE node_modules/typical
+713 silly REMOVE node_modules/user-agents
+714 silly REMOVE node_modules/unraw
+715 silly REMOVE node_modules/typedarray-to-buffer
+716 silly REMOVE node_modules/type-fest
+717 silly REMOVE node_modules/tslib
+718 silly REMOVE node_modules/trim
+719 silly REMOVE node_modules/translate-google
+720 silly REMOVE node_modules/strip-ansi
+721 silly REMOVE node_modules/strip-ansi/node_modules/ansi-regex
+722 silly REMOVE node_modules/tesseract.js
+723 silly REMOVE node_modules/tesseract.js-core
+724 silly REMOVE node_modules/superagent
+725 silly REMOVE node_modules/superagent/node_modules/form-data
+726 silly REMOVE node_modules/spotify-web-api-node
+727 silly REMOVE node_modules/spotifydl-core
+728 silly REMOVE node_modules/spotifydl-core/node_modules/fs-extra
+729 silly REMOVE node_modules/scr-emoji
+730 silly REMOVE node_modules/scr-emoji/node_modules/axios
+731 silly REMOVE node_modules/signal-exit
+732 silly REMOVE node_modules/safe-eval
+733 silly REMOVE node_modules/semver
+734 silly REMOVE node_modules/restore-cursor
+735 silly REMOVE node_modules/rsnchat
+736 silly REMOVE node_modules/rsnchat/node_modules/axios
+737 silly REMOVE node_modules/readline
+738 silly REMOVE node_modules/responselike
+739 silly CHANGE node_modules/request/node_modules/uuid
+740 silly REMOVE node_modules/resolve-alpn
+741 silly CHANGE node_modules/qs
+742 silly REMOVE node_modules/quick-lru
+743 silly CHANGE node_modules/qrcode-terminal
+744 silly REMOVE node_modules/pokemon.js
+745 silly REMOVE node_modules/pump
+746 silly CHANGE node_modules/pngjs
+747 silly CHANGE node_modules/pixelmatch
+748 silly CHANGE node_modules/pixelmatch/node_modules/pngjs
+749 silly REMOVE node_modules/os
+750 silly REMOVE node_modules/ora
+751 silly REMOVE node_modules/ora/node_modules/chalk
+752 silly CHANGE node_modules/pino
+753 silly REMOVE node_modules/opencollective-postinstall
+754 silly REMOVE node_modules/p-cancelable
+755 silly REMOVE node_modules/openai
+756 silly REMOVE node_modules/openai/node_modules/axios
+757 silly REMOVE node_modules/onetime
+758 silly REMOVE node_modules/node-youtube-music
+759 silly REMOVE node_modules/normalize-url
+760 silly REMOVE node_modules/num-or-not
+761 silly CHANGE node_modules/node-fzf
+762 silly REMOVE node_modules/node-domexception
+763 silly REMOVE node_modules/node-id3
+764 silly REMOVE node_modules/mute-stream
+765 silly REMOVE node_modules/mimic-fn
+766 silly REMOVE node_modules/lodash.camelcase
+767 silly REMOVE node_modules/mimic-response
+768 silly CHANGE node_modules/mime
+769 silly REMOVE node_modules/log-symbols
+770 silly REMOVE node_modules/log-symbols/node_modules/supports-color
+771 silly REMOVE node_modules/log-symbols/node_modules/has-flag
+772 silly REMOVE node_modules/log-symbols/node_modules/color-name
+773 silly REMOVE node_modules/log-symbols/node_modules/chalk
+774 silly REMOVE node_modules/log-symbols/node_modules/color-convert
+775 silly REMOVE node_modules/log-symbols/node_modules/ansi-styles
+776 silly REMOVE node_modules/methods
+777 silly CHANGE node_modules/libphonenumber-js
+778 silly REMOVE node_modules/lowercase-keys
+779 silly CHANGE node_modules/load-bmfont
+780 silly ADD node_modules/load-bmfont/node_modules/phin
+781 silly CHANGE node_modules/load-bmfont/node_modules/mime
+782 silly REMOVE node_modules/is-obj
+783 silly CHANGE node_modules/libsignal/node_modules/protobufjs
+784 silly REMOVE node_modules/keyv
+785 silly REMOVE node_modules/json-buffer
+786 silly CHANGE node_modules/jimp
+787 silly REMOVE node_modules/isomorphic-fetch
+788 silly REMOVE node_modules/is-electron
+789 silly REMOVE node_modules/is-interactive
+790 silly REMOVE node_modules/is-keyword-js
+791 silly REMOVE node_modules/iconv-lite
+792 silly REMOVE node_modules/idb-keyval
+793 silly REMOVE node_modules/human-readable
+794 silly REMOVE node_modules/http2-wrapper
+795 silly REMOVE node_modules/http-cache-semantics
+796 silly REMOVE node_modules/html-entities
+797 silly REMOVE node_modules/google-it
+798 silly REMOVE node_modules/got
+799 silly REMOVE node_modules/formdata-polyfill
+800 silly REMOVE node_modules/googlethis
+801 silly REMOVE node_modules/googlethis/node_modules/parse5-htmlparser2-tree-adapter
+802 silly REMOVE node_modules/googlethis/node_modules/htmlparser2
+803 silly REMOVE node_modules/googlethis/node_modules/entities
+804 silly REMOVE node_modules/googlethis/node_modules/domutils
+805 silly REMOVE node_modules/googlethis/node_modules/domhandler
+806 silly REMOVE node_modules/googlethis/node_modules/css-select
+807 silly REMOVE node_modules/googlethis/node_modules/cheerio-select
+808 silly REMOVE node_modules/googlethis/node_modules/cheerio
+809 silly REMOVE node_modules/fs
+810 silly CHANGE node_modules/gifwrap
+811 silly REMOVE node_modules/file_size_url
+812 silly REMOVE node_modules/get-stream
+813 silly REMOVE node_modules/find-replace
+814 silly REMOVE node_modules/formidable
+815 silly REMOVE node_modules/fetch-blob
+816 silly REMOVE node_modules/fast-safe-stringify
+817 silly CHANGE node_modules/escodegen
+818 silly CHANGE node_modules/esprima
+819 silly REMOVE node_modules/data-uri-to-buffer
+820 silly ADD node_modules/emoji-api/node_modules/universalify
+821 silly ADD node_modules/emoji-api/node_modules/tough-cookie
+822 silly REMOVE node_modules/dot-prop
+823 silly REMOVE node_modules/defaults
+824 silly REMOVE node_modules/defaults/node_modules/clone
+825 silly REMOVE node_modules/dom-serializer
+826 silly REMOVE node_modules/dom-serializer/node_modules/entities
+827 silly REMOVE node_modules/dom-serializer/node_modules/domhandler
+828 silly REMOVE node_modules/defer-to-connect
+829 silly REMOVE node_modules/decompress-response
+830 silly REMOVE node_modules/crypto-random-string
+831 silly REMOVE node_modules/configstore
+832 silly REMOVE node_modules/configstore/node_modules/write-file-atomic
+833 silly REMOVE node_modules/cookie
+834 silly REMOVE node_modules/cookiejar
+835 silly REMOVE node_modules/command-line-args
+836 silly REMOVE node_modules/component-emitter
+837 silly REMOVE node_modules/cli-spinners
+838 silly REMOVE node_modules/cli-cursor
+839 silly REMOVE node_modules/clone-response
+840 silly REMOVE node_modules/clone-response/node_modules/mimic-response
+841 silly REMOVE node_modules/child_process
+842 silly CHANGE node_modules/cfonts
+843 silly REMOVE node_modules/cacheable-lookup
+844 silly REMOVE node_modules/cacheable-request
+845 silly REMOVE node_modules/betabotz-tools
+846 silly REMOVE node_modules/betabotz-tools/node_modules/axios
+847 silly REMOVE node_modules/array-back
+848 silly CHANGE node_modules/awesome-phonenumber
+849 silly REMOVE node_modules/aptoide-scraper
+850 silly REMOVE node_modules/aptoide-scraper/node_modules/axios
+851 silly REMOVE node_modules/aptoide-scraper/node_modules/node-fetch
+852 silly CHANGE node_modules/assemblyai
+853 silly REMOVE node_modules/assemblyai/node_modules/axios
+854 silly CHANGE node_modules/acorn-globals/node_modules/acorn
+855 silly CHANGE node_modules/acorn
+856 silly CHANGE node_modules/aki-api
+857 silly REMOVE node_modules/archive-2024-09-28T234638+0200.tar.gz
+858 silly REMOVE node_modules/archive-2024-09-28T234628+0200.tar.gz
+859 verbose cwd /home/container
+860 verbose os Linux 5.15.0-88-generic
+861 verbose node v20.18.0
+862 verbose npm  v10.9.0
+863 verbose exit 0
+864 info ok
